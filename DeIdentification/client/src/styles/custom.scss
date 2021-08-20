@@ -1,0 +1,153 @@
+.MuiTableRow-root .MuiTableCell-head {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-paddingNone {
+  padding: 0px;
+}
+
+.MuiIconButton-root {
+  cursor: pointer;
+}
+
+.asset_department {
+  background-color: #fff;
+  padding: 8px;
+  height: auto;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.none_wrap {
+  white-space: nowrap !important;
+}
+
+.validator-form-scroll-dialog {
+  overflow-y: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.logo-login {
+  max-width: 400px !important;
+}
+.logo-login img {
+  width: 100% !important;
+}
+.tb-charts-container .tb-charts-tab-label button {
+  font-size: 0.6rem;
+  max-width: 25%;
+}
+.tb-charts-container .tb-charts-tab-label .MuiTab-root {
+  min-width: unset;
+}
+// .logo-menu{
+//     max-width: 100px !important;
+// }
+// .logo-menu img{
+//     width: 100% !important;
+// }
+
+.map-show{
+    position: relative;
+    z-index:9;
+}
+
+.search-card{
+    position: absolute;
+    top:90px;
+    right:5px;
+    z-index: 10;
+    border-radius:5px;
+    width:250px;
+}
+
+iframe {
+  display: block;  
+  margin: 0 auto;
+  padding:0;     /* iframes are inline by default */
+  background: #fff;
+  border: none;         /* Reset default border */
+  height: 100vh;        /* Viewport-relative units */
+  width: 100vw;
+}
+// }
+
+// Openlayer popup
+.ol-popup {
+    z-index: 0;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  min-width: 280px;
+}
+.ol-popup:after,
+.ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+.ol-popup-closer:after {
+  content: "?";
+}
+
+
+.styleColor{
+  background-color: #358600;
+  color:#fff;
+}
+
+.close-style{
+  position: absolute;
+  right: 20px;
+  top:7px;
+  font-size:small;
+  width: 15px;
+  height: 15px;
+  color: #ebebeb;
+}
+
+#atmospheric-c {
+  height: 500; 
+  margin: 0 auto;
+}
+

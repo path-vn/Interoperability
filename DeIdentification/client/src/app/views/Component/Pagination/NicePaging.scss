@@ -1,0 +1,87 @@
+.nice-pagination-bar {
+    padding: 15px 7px;
+    float: right;
+}
+
+.row-per-page-selector {
+    display: flex;
+}
+
+.row-per-page-selector p {
+    margin: 5px 0px;
+}
+
+.row-per-page-selector .text-field {
+    margin-left: 15px;
+}
+
+.row-per-page-selector .text-field>div {
+    line-height: 20px;
+}
+
+.row-per-page-selector .text-field>div::before {
+    content: none;
+}
+
+.row-per-page-selector .text-field>div::after {
+    content: none;
+}
+
+@media screen and (max-width: 400px) {
+    .nice-pagination-bar {
+        padding: 7px 5px;
+    }
+    .page-selector {
+        padding: 0!important;
+    }
+    .page-selector li:first-child,
+    li:last-child {
+        display: none;
+    }
+}
+
+.nice-pagination-bar .Mui-selected {
+    color: #fff;
+    background-color: #2a80c8;
+    border-color: #2a80c8;
+}
+
+.nice-pagination-bar .Mui-selected:hover {
+    color: #fff;
+    background-color: #1f5f94;
+    border-color: #1f5f94;
+}
+
+.total-rows {
+    margin: 0px 12px 0px 6px;
+    padding: 0px 12px 0px 6px;
+    border-right: 1px solid #000;
+}
+
+.page-goto {
+    display: flex;
+    float: right;
+    align-items: baseline;
+}
+
+.page-goto p {
+    margin: 5px 15px 5px 0;
+}
+
+.page-goto .text-field {
+    width: 50px;
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+        margin: 0; 
+    }
+}
+
+.page-goto .text-field>div::after{
+    content: none;
+}
+
+.page-goto .text-field>div::before{
+    content: none;
+}
+

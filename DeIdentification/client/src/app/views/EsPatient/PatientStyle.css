@@ -1,0 +1,15 @@
+/* .MuiTableRow-root .MuiTableCell-root {
+    padding: 0;
+} */
+
+.MuiTableRow-root .MuiTableCell-root {
+    padding: 10px 8px;
+}
+
+.MuiFormLabel-root.Mui-disabled {
+    color: rgba(0, 0, 0, 1);
+}
+
+.MuiInputBase-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.87);
+}
