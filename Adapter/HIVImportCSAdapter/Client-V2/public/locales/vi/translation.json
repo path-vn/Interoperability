@@ -1,0 +1,341 @@
+﻿{
+    "web_site": "CBS Management",
+    "Dashboard": {
+        "dashboard": "Dashboard",
+        "AdministrativeUnit": "Đơn vị hành chính",
+        "login": "Login",
+        "logout": "Logout",
+        "profile": "Profile"
+    },
+    "navigation": {
+        "dashboard": "Dashboard",
+        "administrative_unit": "Đơn vị hành chính",
+        "directory": "Danh mục",
+        "health_unit": "Đơn vị y tế",
+        "patient": "Bệnh nhân",
+        "case": {
+            "title": "Ca bệnh HIV",
+            "list": "Danh sách",
+            "add": "Thêm mới"
+        },
+        "risk_factors": {
+            "title": "Yếu tố nguy cơ",
+            "risk_population": "Đối tượng nguy cơ",
+            "risk_behavior": "Hành vi nguy cơ",
+            "transmission_route": "Đường lây nhiễm"
+        },
+        "occupation": "Nghề nghiệp",
+        "treatment_status": "Trạng thái điều trị",
+        "ethnicity": "Dân tộc",
+        "manage": {
+            "title": "Quản trị",
+            "user": "Quản trị người dùng",
+            "role": "Quản trị vai trò"
+        }
+
+    },
+    "general": {
+        "button": {
+            "add": "Thêm mới",
+            "delete": "Xóa",
+            "save": "Lưu",
+            "cancel": "Hủy",
+            "edit": "Chỉnh sửa",
+            "select": "Lựa chọn",
+            "filter": "Bộ lọc",
+            "search": "Tìm kiếm",
+            "back": "Quay lại",
+            "update": "Cập nhật",
+            "importExcel": "Nhập Excel",
+            "select_file": "Chọn tệp",
+            "size": "Kích thước",
+            "file_name": "Tên tệp",
+            "close": "Đóng",
+            "remove": "Xoá",
+            "upload": "Tải lên",
+            "download_sample_file": "Tải file mẫu"
+        },
+        "popup": {
+            "select": "Chọn",
+            "code": "Mã",
+            "name": "Tên"
+        },
+        "action": "Thao tác",
+        "enter_search": "Nhập từ khóa tìm kiếm",
+        "rows_per_page": "Số hàng mỗi trang",
+        "required": "Đây là trường bắt buộc",
+        "language": "Ngôn ngữ",
+        "emptyDataMessageTable": "Không có dữ liệu",
+        "empty_file": "Trống"
+
+    },
+    "upload_file": {
+        "title": "Tải tệp",
+        "name": "Tên",
+        "data_source": "Nguồn dữ liệu"
+    },
+    "data_source": {
+        "title": "Nguồn dữ liệu",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả",
+        "channel": "Channel"
+    },
+    "gender": {
+        "transgender-to-female": "Chuyển giới nữ",
+        "transgender-to-male": "Chuyển giới nam",
+        "non-binary": "Lưỡng tính",
+        "male": "Nam",
+        "female": "Nữ",
+        "other": "Khác",
+        "not-disclosed": "Không tiết lộ"
+    },
+    "toast": {
+        "error": "Có lỗi xảy ra, vui lòng thử lại!",
+        "delete_success": "Đã xóa thành công!",
+        "please_select": "Hãy chọn ít nhất 1 mục để xóa!",
+        "duplicate_code": "Mã đã được sử dụng!",
+        "update_success": "Cập nhật thành công!",
+        "add_success": "Thêm mới thành công!",
+        "user_exist": "Tên đăng nhập đã tồn tại!"
+    },
+    "administrative_unit": {
+        "title": "Đơn vị hành chính",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả",
+        "parent": "Đơn vị quản lý",
+        "select": "Lựa chọn đơn vị"
+    },
+    "ethnicity": {
+        "title": "Dân tộc",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "treatment_status": {
+        "title": "Trạng thái điều trị",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "occupation": {
+        "title": "Nghề nghiệp",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "risk_behavior": {
+        "title": "Hành vi nguy cơ",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "risk_population": {
+        "title": "Đối tượng nguy cơ",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "transmission_route": {
+        "title": "Đường lây nhiễm",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "hiv_case": {
+        "title": "Ca bệnh HIV",
+        "art_id": "ART ID",
+        "name": "Họ tên",
+        "gender": "Giới tính",
+        "description": "Mô tả",
+        "first_name": "Tên",
+        "last_name": "Họ",
+        "display_name": "Tên hiển thị",
+        "ethnics": "Dân tộc",
+        "passport_number": "Số hộ chiếu",
+        "birth_date": "Ngày sinh",
+        "national_number": "CMND",
+        "insurance_number": "Số bảo hiểm y tế",
+        "occupation": "Nghề nghiệp",
+        "risk_population": "Đối tượng nguy cơ",
+        "risk_behavior": "Hành vi nguy cơ",
+        "transmission_route": "Đường lây",
+        "treatment_status": "Trạng thái điều trị",
+        "hiv_confirmation_date": "Ngày khẳng định HIV",
+        "hiv_confirmation_lab": "Nơi khẳng định HIV",
+        "specimen_collection_date": "Ngày lấy mẫu",
+        "place_of_specimen_collection": "Nơi lấy mẫu",
+        "on_aids_diagnosis": "Ngày bị AIDS",
+        "aids_diagnostic_place": "Nơi xét nghiệm AIDS",
+        "current_residence": "Địa chỉ nơi đang cư trú",
+        "permanent_residence": "Địa chỉ nơi hộ khẩu",
+        "city_code": "Mã thành phố",
+        "city": "Thành phố",
+        "district_code": "Mã Quận/Huyện",
+        "district": "Quận/Huyện",
+        "commune_code": "Mã xã phường",
+        "commune": "Xã phường",
+        "detail": "Chi tiết",
+        "pathological": "Bệnh lý",
+        "age": "Tuổi",
+        "manageOrg": "Đơn vị quản lý",
+        "address": "Địa chỉ",
+        "person_infomation": "Thông tin cá nhân",
+        "syn": "Đồng bộ"
+    },
+    "health_org": {
+        "title": "Đơn vị y tế",
+        "parent": "Đơn vị quản lý",
+        "select": "Lựa chọn đơn vị"
+
+    },
+    "patient": {
+        "fhir": "FHIR",
+        "es": "Elasticsearch",
+        "patient_code": "Mã bệnh nhân",
+        "last_updated": "Đồng bộ cuối",
+        "first_name": "Họ",
+        "last_name": "Tên",
+        "full_name": "Tên đầy đủ",
+        "ethnicity": "Dân tộc",
+        "gender": "Giới tính",
+        "passport_number": "Số hộ chiếu",
+        "age": "Tuổi",
+        "birth_date": "Ngày sinh",
+        "national_id": "CMND",
+        "art_id": "Mã ART",
+        "health_insurance_id": "Số BHYT",
+        "occupation": "Nghề nghiệp",
+        "risk_population": "Đối tượng nguy cơ",
+        "risk_behavior": "Hành vi nguy cơ",
+        "transmission_route": "Đường lây nhiễm",
+        "current_resident_status": "Trạng thái địa chỉ thường trú",
+        "pathological": "Bệnh lý",
+        "specimen_date": "Ngày lấy mẫu",
+        "confirmation_date": "Ngày khẳng định",
+        "confirmation_lab": "Nơi khẳng định",
+        "specimen_place": "Nơi lấy mẫu",
+        "treatment_status": "Trạng thái điều trị",
+        "on_aids_diagnosis": "Ngày khẳng định AIDS",
+        "aids_diagnosis_place": "Nơi khẳng định AIDS",
+        "deceased_date": "Ngày chết",
+        "death_cause": "Nguyên nhân chết",
+        "person_infomation": "Thông tin cơ bản",
+        "current_residence": "Địa chỉ nơi đang cư trú",
+        "permanent_residence": "Địa chỉ hộ khẩu",
+        "city_code": "Mã thành phố",
+        "city": "Thành phố",
+        "district_code": "Mã quận/huyện",
+        "district": "Quận/huyện",
+        "commune_code": "Mã xã/phường",
+        "commune": "Xã/phường",
+        "address": "Địa chỉ",
+        "line": "Đường",
+        "note": "Ghi chú",
+        "tab": {
+            "cd4_during": "CD4",
+            "vl": "Tải lượng virut",
+            "regimen": "Phác đồ",
+            "risk_population": "Đối tượng nguy cơ",
+            "risk_behavior": "Hành vi nguy cơ",
+            "transmission_route": "Đường lây nhiễm",
+            "tb_treatment": "Điều trị lao",
+            "hbv": "Viêm gan B",
+            "hcv": "Viêm gan C",
+            "tbp": "Dự phòng lao",
+            "arv_treatment": "Điều trị ARV",
+            "transfer_treatment": "Chuyển điều trị",
+            "drug_resistance": "Kháng thuốc",
+
+            "no": "STT",
+            "org": "Đơn vị",
+            "start_date": "Ngày bắt đầu",
+            "end_date": "Ngày kết thúc",
+            "loss_follow_up_date": "Ngày mất dấu",
+            "value": "Giá trị",
+            "test_date": "Ngày xét nghiệm",
+            "specimen_date": "Ngày lấy mẫu",
+            "specimen_place": "Nơi lấy mẫu",
+            "diagnosis_date": "Chuẩn đoán",
+            "treatment_place": "Nơi điều trị",
+            "regimen_line": "Bậc phác đồ",
+            "code": "Mã",
+            "display": "Tên hiển thị",
+            "definition": "Mô tả",
+            "name": "Tên"
+
+
+        }
+    },
+
+    "confirm_dialog": {
+        "delete": {
+            "title": "Xác nhận xóa",
+            "text": "Bạn có chắc chắn muốn xóa bản ghi này?",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "delete_list": {
+            "title": "Xác nhận xóa",
+            "text": "Bạn có chắc chắn muốn xóa những bản ghi này?",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        }
+
+    },
+
+    "sign_in": {
+        "title": "Đăng nhập"
+    },
+    "sign_up": {
+        "title": "Đăng ký",
+        "title_form": "Đăng ký tài khoản",
+        "info_login": "Thông tin đăng nhập"
+    },
+    "user": {
+        "title": "Tài khoản",
+        "person_info": "Thông tin người dùng",
+        "display_name": "Tên hiển thị",
+        "gender": "Giới tính",
+        "username": "Tên đăng nhập",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "re_password": "Nhập lại mật khẩu",
+        "current_password": "Mật khẩu hiện tại",
+        "new_password": "Mật khẩu mới",
+        "change_pass": "Đổi mật khẩu",
+        "remember_me": "Lưu tài khoản",
+        "password_match_message": "Mật khẩu không chính xác",
+        "password_message": "Mật khẩu quá ngắn",
+        "active": "Kích hoạt",
+        "role": {
+            "title": "Vai trò",
+            "name": "Tên",
+            "authority": "Quyền",
+            "createdBy": "Người tạo"
+
+        },
+        "org": {
+            "title": "Đơn vị y tế",
+            "type": "Loại Đơn Vị"
+        }
+
+
+    },
+    "role": {
+        "title": "Vai trò",
+        "name": "Tên",
+        "authority": "Quyền",
+        "createdBy": "Người tạo"
+
+    },
+    "HealthOrg": {
+        "select": "Lựa chọn đơn vị",
+        "name": "Tên Đơn Vị",
+        "code": "Mã Đơn Vị",
+        "parent": "Đơn vị quản lý",
+        "type": "Loại Đơn Vị",
+        "warning_parent": "Không thể chọn đơn vị này làm đơn vị quản lý"
+    }
+}

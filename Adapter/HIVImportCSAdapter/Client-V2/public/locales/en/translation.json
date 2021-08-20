@@ -1,0 +1,316 @@
+{
+    "web_site": "CBS Management",
+    "Dashboard": {
+        "dashboard": "Dashboard",
+        "AdministrativeUnit": "Đơn vị hành chính",
+        "login": "Login",
+        "logout": "Logout",
+        "profile": "Profile"
+    },
+    "navigation": {
+        "dashboard": "Dashboard",
+        "administrative_unit": "Administrative Unit",
+        "directory": "Directory",
+        "health_unit": "Health Unit",
+        "patient": "Patient",
+        "case": "HIV Case",
+        "risk_factors": {
+            "title": "Risk Factors",
+            "risk_population": "Risk Population",
+            "risk_behavior": "Risk Behavior",
+            "transmission_route": "Transmission Route"
+        },
+        "occupation": "Occupation",
+        "treatment_status": "Treatment Status",
+        "ethnicity": "Ethnicity",
+        "manage": {
+            "title": "Manage",
+            "user": "Manage users",
+            "role": "Manage roles"
+        }
+
+    },
+    "general": {
+        "button": {
+            "add": "Add",
+            "delete": "Delete",
+            "save": "Save",
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "select": "Select",
+            "filter": "Filter",
+            "search": "Search",
+            "back": "Go back",
+            "update": "Update",
+            "select_file": "Choose file",
+            "size": "Size",
+            "file_name": "File name",
+            "close": "Close",
+            "remove": "Remove",
+            "upload": "Upload",
+            "importExcel": "Import Excel",
+            "download_sample_file": "Download Sample file"
+        },
+        "popup": {
+            "select": "Select",
+            "code": "Code",
+            "name": "Name"
+        },
+        "action": "Action",
+        "enter_search": "Enter search keyword",
+        "rows_per_page": "Rows per page",
+        "required": "This field is required",
+        "language": "Language",
+        "emptyDataMessageTable": "No data",
+        "empty_file": "Empty file"
+    },
+    "upload_file": {
+        "title": "Upload File",
+        "name": "Name",
+        "data_source": "Data source"
+    },
+    "data_source": {
+        "title": "Data source",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description",
+        "channel": "Channel"
+    },
+    "gender": {
+        "transgender-to-female": "Transgender Female",
+        "transgender-to-male": "Transgender Male",
+        "non-binary": "Non Binary",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "not-disclosed": "Not Disclosed"
+    },
+    "toast": {
+        "error": "Something went wrong, please try again!",
+        "delete_success": "Deleted successfully!",
+        "please_select": "Please select at least one item!",
+        "duplicate_code": "This code is being used!",
+        "update_success": "Updated successfully!",
+        "add_success": "Added successfully!",
+        "user_exist": "Username is exist!"
+    },
+    "administrative_unit": {
+        "title": "Administrative Unit",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description",
+        "parent": "Parent Unit",
+        "select": "Select"
+
+    },
+    "ethnicity": {
+        "title": "Ethnicity",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description"
+    },
+    "treatment_status": {
+        "title": "Treatment Status",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description"
+    },
+    "occupation": {
+        "title": "Occupation",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description"
+    },
+    "risk_behavior": {
+        "title": "Risk Behavior",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description"
+    },
+    "risk_population": {
+        "title": "Risk Population",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description"
+    },
+    "transmission_route": {
+        "title": "Transmission Route",
+        "code": "Code",
+        "name": "Name",
+        "description": "Description"
+    },
+    "hiv_case": {
+        "title": "HIV Case",
+        "art_id": "ART ID",
+        "name": "Full Name",
+        "gender": "Gender",
+        "description": "Description",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "display_name": "Display name",
+        "ethnics": "Ethinics",
+        "passport_number": "Passport number",
+        "birth_date": "Birth date",
+        "national_number": "National number",
+        "insurance_number": "insurance number",
+        "occupation": "Occupation",
+        "risk_population": "Risk population",
+        "risk_behavior": "Risk behavior",
+        "transmission_route": "Transmission route",
+        "treatment_status": "Treatment status",
+        "hiv_confirmation_date": "Hiv confirmation date",
+        "hiv_confirmation_lab": "Hiv confirmation place",
+        "specimen_collection_date": "Specimen collection date",
+        "place_of_specimen_collection": "Place of specimen collection date",
+        "on_aids_diagnosis": "on AIDS diagnosis",
+        "aids_diagnostic_place": "AIDS diagnostic place",
+        "current_residence": "Current Residence",
+        "permanent_residence": "Permanent Residence",
+        "city_code": "City code",
+        "city": "City",
+        "district_code": "District code",
+        "district": "District",
+        "commune_code": "Commune code",
+        "commune": "Commune",
+        "detail": "Detail",
+        "pathological": "Pathological",
+        "age": "Age",
+        "manageOrg": "Manage Org",
+        "address": "Address",
+        "person_infomation": "Person infomation",
+        "syn": "Synchronize"
+    },
+
+    "patient": {
+        "fhir": "FHIR",
+        "es": "Elasticsearch",
+        "patient_code": "Patient code",
+        "last_updated": "Last updated",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "full_name": "Full name",
+        "ethnicity": "Ethnicity",
+        "gender": "Gender",
+        "passport_number": "Passport Number",
+        "age": "Age",
+        "birth_date": "Date of birth",
+        "national_id": "National Id Number",
+        "art_id": "ART ID",
+        "health_insurance_id": "Health insurance number",
+        "occupation": "Occupation",
+        "risk_population": "Risk population",
+        "risk_behavior": "Risk behavior",
+        "transmission_route": "Transmission route",
+        "current_resident_status": "Current resident status",
+        "pathological": "Pathological",
+        "specimen_date": "Date of specimen collection",
+        "confirmation_date": "Date of confirmation",
+        "confirmation_lab": "Confirmation lab",
+        "specimen_place": "Place of specimen collection",
+        "treatment_status": "Treatment status",
+        "on_aids_diagnosis": "On AIDS diagnosis",
+        "aids_diagnosis_place": "AIDS diagnosis place",
+        "deceased_date": "Deceased date",
+        "death_cause": "Cause of death",
+        "person_infomation": "Person infomation",
+        "current_residence": "Current residence",
+        "permanent_residence": "Permanent residence",
+        "city_code": "City code",
+        "city": "City",
+        "district_code": "District code",
+        "district": "District",
+        "commune_code": "Commune code",
+        "commune": "Commune",
+        "address": "Address",
+        "line": "Line",
+        "note": "Note",
+        "tab": {
+            "cd4_during": "CD4",
+            "vl": "Viral load",
+            "regimen": "Regimen",
+            "risk_population": "Risk population",
+            "risk_behavior": "Risk behavior",
+            "transmission_route": "Transmission route",
+            "tb_treatment": "Tuberculosis Treatment",
+            "hbv": "HBV",
+            "hcv": "HCV",
+            "tbp": "Tuberculosis prevention",
+            "arv_treatment": "ARV Treatment",
+            "transfer_treatment": "Transfer treatment",
+            "drug_resistance": "Drug resistance"
+        }
+    },
+    "confirm_dialog": {
+        "delete": {
+            "title": "Delete Confirmation",
+            "text": "Are you sure you want to delete this item?",
+            "agree": "Agree",
+            "cancel": "Cancel"
+        },
+        "delete_list": {
+            "title": "Delete Confirmation",
+            "text": "Are you sure you want to delete these items?",
+            "agree": "Agree",
+            "cancel": "Cancel"
+        }
+
+    },
+
+    "sign_in": {
+        "title": "Login"
+    },
+    "sign_up": {
+        "title": "Đăng ký",
+        "title_form": "Đăng ký tài khoản",
+        "info_login": "Thông tin đăng nhập"
+    },
+    "health_org": {
+        "title": "Health Unit",
+        "parent": "Parent Health Unit",
+        "select": "Select Health Unit"
+
+    },
+    "user": {
+        "title": "User",
+        "person_info": "User infomation",
+        "display_name": "Display name",
+        "gender": "Gender",
+        "username": "Usename",
+        "email": "Email",
+        "password": "Password",
+        "re_password": "Repeat Password",
+        "change_pass": "Change Password",
+        "new_password": "New password",
+        "remember_me": "Remember me",
+        "password_match_message": "Please make sure your password match",
+        "password_message": "Your password is too short",
+        "active": "Active",
+        "role": {
+            "title": "Role",
+            "name": "Name",
+            "authority": "Authority",
+            "createdBy": "Created By"
+
+        },
+        "org": {
+            "title": "Health unit",
+            "type": "Health unit type"
+        }
+
+    },
+    "role": {
+        "title": "Role",
+        "name": "Name",
+        "authority": "Authority",
+        "createdBy": "Created By"
+
+    },
+    "HealthOrg": {
+        "select": "Select Org",
+        "name": "Org Name",
+        "code": "Org Code",
+        "parent": "Parent Unit",
+        "type": "Org type",
+        "warning_parent": "warning parent"
+    }
+}
