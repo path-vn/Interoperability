@@ -1,0 +1,27 @@
+{
+    "urn": "urn:uuid:045c3752-1b25-401d-8017-32v098743bbc",
+    "version": "0.1.0",
+    "name": "Globits Pdma Mediator",
+    "description": "This is the mediator being used in the PDMA",
+    "endpoints": [{
+        "name": "Globits Pdma Mediator Router",
+        "host": "test.globits.net",
+        "port": "3338",
+        "path": "/pdmaadapter/.*",
+        "type": "http"
+    }],
+    "defaultChannelConfig": [{
+        "name": "Globits Pdma Mediator",
+        "urlPattern": "/pdmaadapter/.*",
+        "type": "http",
+        "allow": ["pdma globits mediator"],
+        "routes": [{
+            "name": "Globits Pdma Mediator Router",
+            "host": "test.globits.net",
+            "port": "3338",
+            "path": "/pdmaadapter/.*",
+            "type": "http",
+            "primary": "true"
+        }]
+    }]
+}

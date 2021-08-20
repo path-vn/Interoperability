@@ -1,0 +1,27 @@
+{
+    "urn": "urn:uuid:045c3752-1b25-401d-5649-40c098743byh",
+    "version": "0.1.0",
+    "name": "Globits Cs Api Mediator",
+    "description": "This is the mediator being used in the Cs Api",
+    "endpoints": [{
+        "name": "Globits Cs Api Mediator Router",
+        "host": "test.globits.net",
+        "port": "3339",
+        "path": "/csapichannel/.*",
+        "type": "http"
+    }],
+    "defaultChannelConfig": [{
+        "name": "Globits Cs Api Mediator",
+        "urlPattern": "/csapichannel/.*",
+        "type": "http",
+        "allow": ["cs api globits mediator"],
+        "routes": [{
+            "name": "Globits Cs Api Mediator Router",
+            "host": "test.globits.net",
+            "port": "3339",
+            "path": "/csapichannel/.*",
+            "type": "http",
+            "primary": "true"
+        }]
+    }]
+}

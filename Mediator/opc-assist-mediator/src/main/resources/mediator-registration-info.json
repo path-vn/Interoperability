@@ -1,0 +1,27 @@
+{
+    "urn": "urn:uuid:045c3752-1b25-401d-8017-40c098743byh",
+    "version": "0.1.0",
+    "name": "Globits OPC Assist Mediator",
+    "description": "This is the mediator being used in the OPCASSIST",
+    "endpoints": [{
+        "name": "Globits OPC Assist Mediator Router",
+        "host": "test.globits.net",
+        "port": "3334",
+        "path": "/opcassistadapter/.*",
+        "type": "http"
+    }],
+    "defaultChannelConfig": [{
+        "name": "Globits OPC Assist Mediator",
+        "urlPattern": "/opcassistadapter/.*",
+        "type": "http",
+        "allow": ["opc assist globits mediator"],
+        "routes": [{
+            "name": "Globits OPC Assist Mediator Router",
+            "host": "test.globits.net",
+            "port": "3334",
+            "path": "/opcassistadapter/.*",
+            "type": "http",
+            "primary": "true"
+        }]
+    }]
+}

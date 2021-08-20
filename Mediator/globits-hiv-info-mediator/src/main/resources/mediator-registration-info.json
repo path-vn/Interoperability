@@ -1,0 +1,33 @@
+{
+  "urn": "urn:uuid:045c3752-1b25-401d-8017-40c098773bbc",
+  "version": "0.1.0",
+  "name": "Globits HIV Info Mediator",
+  "description": "This is the mediator being used in the HIV Info",
+  "endpoints": [
+    {
+      "name": "Globits HIV Info Mediator Router",
+      "host": "test.globits.net",
+      "port": "3335",
+      "path": "/hivinfomediator/.*",
+      "type": "http"
+    }
+  ],
+  "defaultChannelConfig": [
+    {
+      "name": "Globits OPC Assist Mediator",
+      "urlPattern": "/hivinfomediator/.*",
+      "type": "http",
+      "allow": ["globits hiv info mediator"],
+      "routes": [
+        {
+          "name": "Globits HIV Info Mediator Router",
+          "host": "test.globits.net",
+          "port": "3335",
+          "path": "/hivinfoadapter/.*",
+          "type": "http",
+          "primary": "true"
+        }
+      ]
+    }
+  ]
+}

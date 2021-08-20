@@ -1,0 +1,33 @@
+{
+  "urn": "urn:uuid:045c3752-1b25-401d-8989-80c098843eee",
+  "version": "0.1.0",
+  "name": "Globits OPC Eclinica Mediator",
+  "description": "This is the mediator being used in the OPCECLINICA",
+  "endpoints": [
+    {
+      "name": "Globits OPC Eclinica Mediator Router",
+      "host": "test.globits.net",
+      "port": "3336",
+      "path": "/opceclinicaadapter/.*",
+      "type": "http"
+    }
+  ],
+  "defaultChannelConfig": [
+    {
+      "name": "Globits OPC Eclinica Mediator",
+      "urlPattern": "/opceclinicaadapter/.*",
+      "type": "http",
+      "allow": ["opc eclinica globits mediator"],
+      "routes": [
+        {
+          "name": "Globits OPC Eclinica Mediator Router",
+          "host": "test.globits.net",
+          "port": "3336",
+          "path": "/opceclinicaadapter/.*",
+          "type": "http",
+          "primary": "true"
+        }
+      ]
+    }
+  ]
+}

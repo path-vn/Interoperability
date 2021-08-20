@@ -1,0 +1,33 @@
+{
+  "urn": "urn:uuid:045c3752-1b25-1234-8017-40c098743bbc",
+  "version": "0.1.0",
+  "name": "Globits HTC Elog Mediator",
+  "description": "This is the mediator being used in the OPCASSIST",
+  "endpoints": [
+    {
+      "name": "Globits HTC Elog Mediator Router",
+      "host": "test.globits.net",
+      "port": "3337",
+      "path": "/htcelogrouter/.*",
+      "type": "http"
+    }
+  ],
+  "defaultChannelConfig": [
+    {
+      "name": "Globits HTC Elog Mediator",
+      "urlPattern": "/htcelogrouter/.*",
+      "type": "http",
+      "allow": ["HTC Elog globits mediator"],
+      "routes": [
+        {
+          "name": "Globits HTC Elog Mediator Router",
+          "host": "test.globits.net",
+          "port": "3337",
+          "path": "/htcelogrouter/.*",
+          "type": "http",
+          "primary": "true"
+        }
+      ]
+    }
+  ]
+}
