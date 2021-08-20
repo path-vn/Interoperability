@@ -1,0 +1,31 @@
+package com.globits.hiv.receive.dto;
+
+import com.globits.hiv.receive.valueset.RecentInfectionConclusionValueSet;
+
+public class HivRecencyTestDto {
+
+    private LabTestDto rapidTest;
+    private LabTestDto vlTest;
+    private SystemCodeDto recentInfectionConclusion;
+    
+    public LabTestDto getRapidTest() {
+        return rapidTest;
+    }
+    public void setRapidTest(LabTestDto rapidTest) {
+        this.rapidTest = rapidTest;
+    }
+    public LabTestDto getVlTest() {
+        return vlTest;
+    }
+    public void setVlTest(LabTestDto vlTest) {
+        this.vlTest = vlTest;
+    }
+    public SystemCodeDto getRecentInfectionConclusion() {
+        return recentInfectionConclusion;
+    }
+    public void setRecentInfectionConclusion(SystemCodeDto recentInfectionConclusion) {
+        this.recentInfectionConclusion = recentInfectionConclusion;
+    }
+
+    
+}

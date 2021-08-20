@@ -1,0 +1,149 @@
+.signup {
+    background: #ffffff;
+}
+
+.signup .MuiPaper-elevation1 {
+    box-shadow: unset!important;
+}
+
+.signup .signup-card {
+    max-width: unset;
+    display: flex;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.login-right-side img {
+    height: 100vh!important;
+    width: 100%!important;
+    object-fit: cover;
+}
+
+.login-left-side {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.login-left-side img {
+    width: 100px!important;
+    height: auto;
+}
+
+.login-left-side h2 {
+    color: #2a80c8!important;
+    margin-top: 32px;
+    font-size: 28px;
+}
+
+.login-left-side .MuiButton-containedPrimary {
+    background: #2a80c8!important;
+    width: 100%;
+}
+
+.login-left-side input {
+    height: calc(1.5em + 1rem + 2px);
+}
+
+.login-left-side svg {
+    margin-right: 10px;
+}
+
+.login-left-side .text-primary {
+    color: #2a80c8!important;
+}
+
+.other-login-section {
+    background: #6c6c6c;
+}
+
+.abcRioButtonBlue {
+    background-color: #2a80c8;
+    border: none;
+    color: #fff;
+}
+
+.abcRioButtonBlue .abcRioButtonIcon {
+    background-color: #fff;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+}
+
+.abcRioButtonContents {
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .21px;
+    margin-left: 6px;
+    margin-right: 6px;
+    vertical-align: top;
+}
+
+.abcRioButton {
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .25);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+    transition: background-color .218s, border-color .218s, box-shadow .218s;
+    -webkit-user-select: none;
+    -webkit-appearance: none;
+    background-image: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+}
+
+.abcRioButtonIcon {
+    float: left;
+}
+
+.abcRioButtonBlue .abcRioButtonContentWrapper {
+    border: 1px solid transparent;
+}
+
+.abcRioButtonContentWrapper {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 542px) and (max-width: 768px) {
+    .article-btn-tool .flex {
+        display: unset!important;
+    }
+    .signup .signup-card {
+        display: block!important;
+    }
+    .login-left-side {
+        margin-top: 15%!important;
+    }
+    .login-right-side img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .login-left-side {
+        margin-top: 15%!important;
+    }
+    .article-btn-tool .flex {
+        display: unset!important;
+    }
+    .article-btn-tool .flex button {
+        margin-bottom: 10px;
+    }
+    .signup .signup-card {
+        display: block!important;
+    }
+    .login-right-side img {
+        display: none;
+    }
+}

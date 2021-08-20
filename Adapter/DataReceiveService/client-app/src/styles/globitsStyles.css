@@ -1,0 +1,246 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary-d {
+    color: #fff;
+    background-color: #2a80c8;
+    border-color: #2a80c8;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #678497;
+    border-color: #678497;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #3f923f;
+    border-color: #3f923f;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #ffbe50;
+    border-color: #ffbe50;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary-d:hover {
+    color: #fff;
+    background-color: #1f5f94;
+    border-color: #1f5f94;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-light:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.d-inline-flex {
+    display: inline-flex!important;
+}
+
+.MuiTypography-colorPrimary {
+    color: #2a80c8;
+}
+
+.MuiIcon-colorPrimary {
+    color: #2a80c8;
+}
+
+.text-primary-d2 {
+    color: #2564a9 !important;
+}
+
+.bgc-primary-d1 {
+    background-color: #2a80c8 !important;
+}
+
+.brc-primary-l2 {
+    border-color: #d2e6f6 !important;
+}
+
+.bgc-green-d1 {
+    background-color: #36ad82 !important;
+}
+
+.bgc-primary {
+    background-color: #2c87d3 !important;
+}
+
+.brc-green-l2 {
+    border-color: #d8f0e8 !important;
+}
+
+.bgc-warning-d1 {
+    background-color: #e19e2e !important;
+}
+
+.text-orange-l2 {
+    color: #ffc277 !important;
+}
+
+.brc-warning-l2 {
+    border-color: #fbeacd !important;
+}
+
+.bgc-danger-tp1 {
+    background-color: rgba(218, 78, 53, 0.925) !important;
+}
+
+.dialog-container .MuiDialog-paperScrollPaper {
+    overflow: hidden;
+}
+
+.dialog-body {
+    overflow: auto;
+    height: 100%;
+    max-height: 500px;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.dialog-footer {
+    padding: 16px 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.MuiIcon-colorDisabled {
+    color: #fff;
+}
+
+.MuiPickersToolbar-toolbar {
+    background-color: #2a80c8;
+}
+
+.MuiPickersDay-daySelected:hover {
+    background-color: #2a80c8;
+}
+
+.MuiPickersDay-daySelected {
+    background-color: #2a80c8;
+}
+
+.MuiButton-textPrimary {
+    color: #2a80c8;
+}
+
+.input-description {
+    font-style: italic;
+    color: red!important;
+}
+
+.sidenav__user .username-photo img {
+    border-color: #67a9df !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+}
+
+.sidenav__user .username-photo .username {
+    font-weight: 600 !important;
+    color: #ffc277 !important;
+    font-size: .95em !important;
+}
+
+.highcharts-container {
+    /* border-radius: 8px!important; */
+    /* box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 10%); */
+    border-radius: 8px;
+    border-width: 0;
+    background-color: #fff;
+    position: relative;
+}

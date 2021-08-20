@@ -1,0 +1,18 @@
+.filter-container {
+    background-color: rgb(237, 245, 251);
+    border: #74aaec solid 1px;
+    border-radius: 0.25rem;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0, 15%) !important;
+}
+
+.filter-container .input {
+    background-color: #fff;
+}

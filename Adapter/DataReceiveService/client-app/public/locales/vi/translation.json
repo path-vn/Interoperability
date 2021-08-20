@@ -1,0 +1,539 @@
+﻿{
+    "web_site": "HIVInfo 4.0",
+    "Dashboard": {
+        "dashboard": "Dashboard",
+        "AdministrativeUnit": "Đơn vị hành chính",
+        "login": "Login",
+        "logout": "Logout",
+        "profile": "Profile",
+        "analytics": {
+            "title": "Thống kê",
+            "under_treatment": "Bệnh nhân đang điều trị",
+            "request_treatment": "Yêu cầu điều trị",
+            "request_checking": "Yêu cầu rà soát",
+            "death": "Bệnh nhân tử vong",
+            "need_checking": "Chưa rà soát",
+            "checked": "Đã rà soát",
+            "right_checking": "Rà soát hợp lệ",
+            "wrong_checking": "Rà soát không hợp lệ",
+            "re_checking": "Rà soát lại",
+            "request_confirm": "Yêu cầu XN khẳng định",
+            "confirm_positive": "Khẳng định dương tính",
+            "has_react": "XN có phản ứng"
+        },
+        "chart":{
+            "amount": "Số lượng",
+            "risk_population": "Biểu đồ cơ cấu theo đối tượng nguy cơ",
+            "risk_behavior": "Biểu đồ cơ cấu theo hành vi nguy cơ",
+            "transmission_route": "Biểu đồ cơ cấu theo đường lây nhiễm",
+            "gender": "Biểu đồ cơ cấu theo giới tính",
+            "birthYear": "Biểu đồ số người nhiễm HIV theo năm sinh",
+            "hiv_case": "Người nhiễm HIV"
+        }
+    },
+    "navigation": {
+        "dashboard": "Tổng quan",
+        "administrative_unit": "Đơn vị hành chính",
+        "directory": "Danh mục",
+        "health_unit": "Đơn vị y tế",
+        "patient": "Danh sách bệnh nhân trên hệ thống",
+        "case": {
+            "title": "Ca bệnh HIV",
+            "list": "Danh sách ca bệnh",
+            "create": "Thêm mới",
+            "list_wait_confirm": "Danh sách có phản ứng chờ khẳng định",
+            "list_to_review": "Danh sách bệnh nhân chưa rà soát",
+            "list_send_to_review": "Danh sách đã gửi rà soát",
+            "list_has_reviewed": "Danh sách đã rà soát",
+            "confirm_positive_list": "Danh sách khẳng định dương tính",
+            "need_confirm_list": "Danh sách chờ khẳng định",
+            "list_wait_confirm_positive": "Danh sách chờ khẳng định",
+            "request_confirm_list": "Danh sách yêu cầu khẳng định",
+            "case_manager": "Danh sách ca bệnh đang quản lý",
+            "transferred_treatment_list": "Danh sách bệnh nhân đã chuyển điều trị",
+            "patients_being_treated_list": "Danh sách bệnh nhân đang điều trị",
+            "list_re_reviewed": "Danh sách rà soát lại"
+        },
+        "test": {
+            "title": "Xét nghiệm",
+            "screening_test": "Xét nghiệm sàng lọc",
+            "add": "Thêm mới xét nghiệm",
+            "list": "Danh sách xét nghiệm",
+            "reactive_list": "XN có phản ứng",
+            "confirm_positive_list": "KĐ dương tính",
+            "confirm_test": "Xét nghiệm khẳng định",
+            "confirm_test_request_list": "Danh sách yêu cầu xét nghiệm khẳng định",
+            "waiting_for_treatment_list": "Danh sách chờ điều trị",
+            "no_react": "XN không có phản ứng",
+            "wait_confirm": "XN có phản ứng chờ KĐ"
+        },
+        "treatment_management": {
+            "title": "Quản lý điều trị",
+            "create": "Thêm mới bệnh nhân",
+            "list": "Danh sách bệnh nhân",
+            "wait_receiving_treatment_list": "Danh sách chờ tiếp nhận điều trị",
+            "transferred_list": "Danh sách chuyển đi",
+            "patients_dropped_out_treatment_list": "Danh sách bỏ điều trị",
+            "patients_died_list": "Danh sách tử vong"
+        },
+        "risk_factors": {
+            "title": "Yếu tố nguy cơ",
+            "risk_population": "Đối tượng nguy cơ",
+            "risk_behavior": "Hành vi nguy cơ",
+            "transmission_route": "Đường lây nhiễm"
+        },
+        "occupation": "Nghề nghiệp",
+        "treatment_status": "Trạng thái điều trị",
+        "checking_status": "Trạng thái rà soát",
+        "ethnicity": "Dân tộc",
+        "manage": {
+            "title": "Quản trị",
+            "user": "Quản trị người dùng",
+            "role": "Quản trị vai trò",
+            "personal_info": "Thông tin cá nhân",
+            "change_password": "Thay đổi mật khẩu",
+            "org_info": "Thông tin đơn vị",
+            "profile": "Thông tin cá nhân",
+            "list_user": "Danh sách nhân viên"
+        },
+        "checking_address": "Rà soát địa chỉ",
+        "list": "Danh sách",
+        "regimen": "Phác đồ điều trị"
+
+    },
+    "general": {
+        "button": {
+            "add": "Thêm mới",
+            "delete": "Xóa",
+            "save": "Lưu",
+            "cancel": "Hủy",
+            "edit": "Chỉnh sửa",
+            "select": "Lựa chọn",
+            "filter": "Bộ lọc",
+            "search": "Tìm kiếm",
+            "back": "Quay lại",
+            "update": "Cập nhật",
+            "importExcel": "Nhập Excel",
+            "select_file": "Chọn tệp",
+            "size": "Kích thước",
+            "file_name": "Tên tệp",
+            "close": "Đóng",
+            "remove": "Xoá",
+            "upload": "Tải lên",
+            "send": "Gửi",
+            "deselect": "Bỏ chọn"
+        },
+        "popup": {
+            "select": "Chọn",
+            "code": "Mã",
+            "name": "Tên"
+        },
+        "no": "STT",
+        "action": "Thao tác",
+        "enter_search": "Nhập từ khóa tìm kiếm",
+        "rows_per_page": "Số hàng mỗi trang:",
+        "required": "Đây là trường bắt buộc",
+        "language": "Ngôn ngữ",
+        "emptyDataMessageTable": "Không có dữ liệu",
+        "empty_file": "Trống",
+        "total_rows": "Tổng số bản ghi:",
+        "goto_page": "Đi tới trang:",
+        "to_homepage": "Đi đến trang chủ"
+
+    },
+    "gender": {
+        "transgender-to-female": "Chuyển giới nữ",
+        "transgender-to-male": "Chuyển giới nam",
+        "non-binary": "Lưỡng tính",
+        "male": "Nam",
+        "female": "Nữ",
+        "other": "Khác",
+        "not-disclosed": "Không tiết lộ"
+    },
+    "toast": {
+        "error": "Có lỗi xảy ra, vui lòng thử lại!",
+        "delete_success": "Đã xóa thành công!",
+        "please_select": "Hãy chọn ít nhất 1 mục để xóa!",
+        "duplicate_code": "Mã đã được sử dụng!",
+        "update_success": "Cập nhật thành công!",
+        "add_success": "Thêm mới thành công!",
+        "user_exist": "Tên đăng nhập đã tồn tại!",
+        "sent_address_check_success": "Đã gửi cho địa phương rà soát!",
+        "change_password_success": "Đã thay đổi mật khẩu!",
+        "change_password_failure": "Có lỗi khi thay đổi mật khẩu!",
+        "sent_address_check_duplicate": "Bệnh nhân đã trong danh sách cần rà soát!",
+        "sent_treatment_duplicate": "Bệnh nhân đã có trong danh sách điều trị!",
+        "sent_treatment_success": "Đã chuyển điều trị cho bệnh nhân!"
+    },
+    "administrative_unit": {
+        "title": "Đơn vị hành chính",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả",
+        "parent": "Đơn vị quản lý",
+        "select": "Lựa chọn đơn vị"
+    },
+    "ethnicity": {
+        "title": "Dân tộc",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "treatment_status": {
+        "title": "Trạng thái điều trị",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "checking_status": {
+        "title": "Trạng thái rà soát",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "occupation": {
+        "title": "Nghề nghiệp",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "risk_behavior": {
+        "title": "Hành vi nguy cơ",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "risk_population": {
+        "title": "Đối tượng nguy cơ",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "transmission_route": {
+        "title": "Đường lây nhiễm",
+        "code": "Mã",
+        "name": "Tên",
+        "description": "Mô tả"
+    },
+    "regimen": {
+        "title": "Phác đồ điều trị",
+        "regimen_line": "Bậc phác đồ",
+        "regimen_name": "Tên phác đồ",
+        "start_date": "Ngày bắt đầu",
+        "end_date": "Ngày kết thúc",
+        "end_reason": "Lý do kết thúc",
+        "select": "Lựa chọn phác đồ"
+    },
+    "treatment_period": {
+        "title": "Kỳ điều trị",
+        "start_date": "Ngày bắt đầu điều trị",
+        "end_date": "Ngày dừng điều trị",
+        "end_reason": "Lý do dừng trị",
+        "type": "Loại điều trị",
+        "unit": "Đơn vị điều trị",
+        "name": "Tên",
+        "code": "Mã kỳ điều trị"
+    },
+
+    "confirm_test": {
+        "title": "XNKĐ",
+        "list": "Danh sách XNKĐ"
+    },
+    "treatment": {
+        "tab": {
+            "all": "Tất cả",
+            "transfer_out": "Chuyển đi",
+            "drop": "Bỏ trị",
+            "death": "Tử vong",
+            "lfu": "Mất dấu"
+
+        },
+        "title": "Quản lý điều trị",
+        "list": "Danh sách bệnh nhân",
+        "wait_arv": "Danh sách chờ tiếp nhận điều trị",
+        "transfer_out": "Chuyển điều trị",
+        "treatment_info": "Thông tin điều trị hiện thời",
+        "arv_id": "Mã ARV",
+        "arv_id_text": "* Nhập mã ARV khi bắt đầu điều trị ARV",
+        "receive": "Tiếp nhận điều trị"
+
+    },
+    "hiv_case": {
+        "tab": {
+            "all": "Tất cả",
+            "person_infomation": "Thông tin cơ bản",
+            "arv_treatment": "Điều trị ARV",
+            "hiv_confirmation": "XNKĐ HIV",
+            "screening": "Sàng lọc",
+            "local_unit": "Đơn vị quản lý địa phương",
+            "confirm_test_request_list": "Yêu cầu XNKĐ",
+            "confirm_positive_list": "KĐ dương tính",
+            "waiting_for_treatment_list": "Chờ điều trị",
+            "sent_arv_treatment": "Đã chuyển điều trị",
+            "transfer_in": "Đã tiếp nhận điều trị",
+            "init_arv_treatment": "Chuyển điều trị ARV",
+            "address_checking": "Rà soát",
+            "under_treatment": "Đang điều trị ARV"
+        },
+        "arv": {
+            "enrollment_type": "Loại điều trị",
+            "enrollment_date": "Ngày đăng kí điều trị",
+            "enrollment_place": "Nơi đăng kí điều trị",
+            "initiation_date": "Ngày bắt đầu điều trị",
+            "initiation_place": "Nơi điều trị",
+            "stop_date": "Ngày dừng điều trị",
+            "stop_reason": "Lý do dừng trị"
+        },
+
+        "screening_result": "Kết quả sàng lọc",
+        "confirm_Result": "Kết quả khẳng định",
+        "title": "Ca bệnh HIV",
+        "art_id": "ART ID",
+        "name": "Họ tên",
+        "gender": "Giới tính",
+        "description": "Mô tả",
+        "first_name": "Tên",
+        "last_name": "Họ",
+        "display_name": "Tên hiển thị",
+        "ethnics": "Dân tộc",
+        "passport_number": "Số hộ chiếu",
+        "birth_date": "Ngày sinh",
+        "national_number": "CMND",
+        "insurance_number": "Số bảo hiểm y tế",
+        "occupation": "Nghề nghiệp",
+        "risk_population": "Đối tượng nguy cơ",
+        "risk_behavior": "Hành vi nguy cơ",
+        "transmission_route": "Đường lây",
+        "treatment_status": "Trạng thái điều trị",
+        "checking_status": "Trạng thái rà soát",
+        "hiv_confirmation_date": "Ngày khẳng định HIV",
+        "hiv_confirmation_lab": "Nơi khẳng định HIV",
+        "specimen_collection_date": "Ngày lấy mẫu",
+        "place_of_specimen_collection": "Nơi lấy mẫu",
+        "on_aids_diagnosis": "Ngày bị AIDS",
+        "aids_diagnostic_place": "Nơi xét nghiệm AIDS",
+        "current_residence": "Địa chỉ nơi đang cư trú",
+        "permanent_residence": "Địa chỉ nơi hộ khẩu",
+        "city_code": "Mã thành phố",
+        "city": "Thành phố",
+        "district_code": "Mã Quận/Huyện",
+        "district": "Quận/Huyện",
+        "commune_code": "Mã xã phường",
+        "commune": "Xã phường",
+        "detail": "Chi tiết",
+        "pathological": "Bệnh lý",
+        "age": "Tuổi",
+        "address": "Địa chỉ",
+        "person_infomation": "Thông tin cá nhân",
+        "syn": "Giống địa chỉ hộ khẩu",
+        "synOff": "Khác địa chỉ hộ khẩu",
+        "screening_date": "Ngày xét nghiệm sàng lọc",
+        "screening_lab": "Nơi xét nghiệm sàng lọc",
+        "district_health_date": "Ngày xác nhận rà soát",
+        "district_health_center": "Trung tâm y tế tuyến quận/huyện",
+        "commune_health_date": "Ngày rà soát",
+        "commune_health_center": "Trung tâm y tế tuyến xã/phường",
+        "create": "Thêm mới",
+        "list": "Danh sách ca bệnh",
+        "list_wait_confirm": "Danh sách dương tính chờ xác nhận",
+        "list_to_review": "Danh sách cần rà soát",
+        "list_send_to_review": "Danh sách đã gửi rà soát",
+        "list_has_reviewed": "Danh sách đã rà soát",
+        "confirm_positive_list": "Danh sách khẳng định dương tính",
+        "case_id": "Mã ca bệnh",
+        "address_checking_status": "Kết quả rà soát",
+        "case_id_text": "* Nhập Mã ca bệnh sau khi đã có kết quả rà soát",
+        "checking_address_unit": "Đơn vị rà soát",
+        "screening_unit": "Đơn vị sàng lọc",
+        "checking_date": "Ngày rà soát",
+        "manage_org": "Đơn vị quản lý",
+        "treatment_unit": "Đơn vị điều trị",
+        "confirmation_unit": "Đơn vị khẳng định",
+        "address_detail": "Địa chỉ chi tiết",
+        "death": "Tử vong"
+    },
+    "screening_test": {
+        "title": "Xét nghiệm sàng lọc",
+        "list": "Danh sách XN sàng lọc"
+    },
+    "health_org": {
+        "title": "Đơn vị y tế",
+        "parent": "Đơn vị quản lý",
+        "select": "Lựa chọn đơn vị",
+        "type": "Loại Đơn Vị",
+        "name": "Tên Đơn Vị",
+        "code": "Mã Đơn Vị",
+        "warning_parent": "Không thể chọn đơn vị này làm đơn vị quản lý",
+        "administrative_unit": "Đơn vị hành chính",
+        "level": "Cấp đơn vị",
+        "list_user": "Danh sách người dùng trong đơn vị y tế"
+    },
+    "patient": {
+        "name": "Họ tên",
+        "fhir": "FHIR",
+        "es": "Elasticsearch",
+        "patient_code": "Mã bệnh nhân",
+        "last_updated": "Đồng bộ cuối",
+        "first_name": "Họ",
+        "last_name": "Tên",
+        "full_name": "Tên đầy đủ",
+        "ethnicity": "Dân tộc",
+        "gender": "Giới tính",
+        "passport_number": "Số hộ chiếu",
+        "age": "Tuổi",
+        "birth_date": "Ngày sinh",
+        "national_id": "CMND",
+        "art_id": "Mã ART",
+        "health_insurance_id": "Số BHYT",
+        "occupation": "Nghề nghiệp",
+        "risk_population": "Đối tượng nguy cơ",
+        "risk_behavior": "Hành vi nguy cơ",
+        "transmission_route": "Đường lây nhiễm",
+        "current_resident_status": "Trạng thái địa chỉ thường trú",
+        "pathological": "Bệnh lý",
+        "specimen_date": "Ngày lấy mẫu",
+        "confirmation_date": "Ngày khẳng định",
+        "confirmation_lab": "Nơi khẳng định",
+        "specimen_place": "Nơi lấy mẫu",
+        "treatment_status": "Trạng thái điều trị",
+        "on_aids_diagnosis": "Ngày khẳng định AIDS",
+        "aids_diagnosis_place": "Nơi khẳng định AIDS",
+        "deceased_date": "Ngày chết",
+        "death_cause": "Nguyên nhân chết",
+        "person_infomation": "Thông tin cơ bản",
+        "current_residence": "Địa chỉ nơi đang cư trú",
+        "permanent_residence": "Địa chỉ hộ khẩu",
+        "city_code": "Mã thành phố",
+        "city": "Thành phố",
+        "district_code": "Mã quận/huyện",
+        "district": "Quận/huyện",
+        "commune_code": "Mã xã/phường",
+        "commune": "Xã/phường",
+        "address": "Địa chỉ",
+        "line": "Đường",
+        "note": "Ghi chú",
+        "tab": {
+            "cd4_during": "CD4",
+            "vl": "Tải lượng virut",
+            "regimen": "Phác đồ",
+            "risk_population": "Đối tượng nguy cơ",
+            "risk_behavior": "Hành vi nguy cơ",
+            "transmission_route": "Đường lây nhiễm",
+            "tb_treatment": "Điều trị lao",
+            "hbv": "Viêm gan B",
+            "hcv": "Viêm gan C",
+            "tbp": "Dự phòng lao",
+            "arv_treatment": "Điều trị ARV",
+            "transfer_treatment": "Chuyển điều trị",
+            "drug_resistance": "Kháng thuốc",
+
+            "no": "STT",
+            "org": "Đơn vị",
+            "start_date": "Ngày bắt đầu",
+            "end_date": "Ngày kết thúc",
+            "loss_follow_up_date": "Ngày mất dấu",
+            "value": "Giá trị",
+            "test_date": "Ngày xét nghiệm",
+            "specimen_date": "Ngày lấy mẫu",
+            "specimen_place": "Nơi lấy mẫu",
+            "diagnosis_date": "Chuẩn đoán",
+            "treatment_place": "Nơi điều trị",
+            "regimen_line": "Bậc phác đồ",
+            "code": "Mã",
+            "display": "Tên hiển thị",
+            "definition": "Mô tả",
+            "name": "Tên"
+
+
+        }
+    },
+
+    "confirm_dialog": {
+        "delete": {
+            "title": "Xác nhận xóa",
+            "text": "Bạn có chắc chắn muốn xóa bản ghi này?",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "delete_list": {
+            "title": "Xác nhận xóa",
+            "text": "Bạn có chắc chắn muốn xóa những bản ghi này?",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "send_checking": {
+            "title": "Xác nhận gửi",
+            "text": "Gửi rà soát địa chỉ bệnh nhân",
+            "check_again": "Gửi rà soát lại địa chỉ",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "send_treatment": {
+            "title": "Xác nhận gửi",
+            "text": "Chuyển điều trị cho bệnh nhân",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "confirm_close": {
+            "title": "Xác nhận huỷ",
+            "text": "Bạn có chắc chắn huỷ?",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        },
+        "receive_treatment": {
+            "title": "Tiếp nhận điều trị",
+            "text": "Tiếp nhận điều trị cho bệnh nhân này",
+            "agree": "Xác nhận",
+            "cancel": "Hủy"
+        }
+
+    },
+
+    "sign_in": {
+        "title": "Đăng nhập"
+    },
+    "sign_up": {
+        "title": "Đăng ký",
+        "title_form": "Đăng ký tài khoản",
+        "info_login": "Thông tin đăng nhập"
+    },
+    "user": {
+        "title": "Tài khoản",
+        "person_info": "Thông tin người dùng",
+        "display_name": "Tên hiển thị",
+        "gender": "Giới tính",
+        "username": "Tên đăng nhập",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "re_password": "Nhập lại mật khẩu",
+        "current_password": "Mật khẩu hiện tại",
+        "new_password": "Mật khẩu mới",
+        "change_pass": "Đổi mật khẩu",
+        "remember_me": "Lưu tài khoản",
+        "password_match_message": "Mật khẩu không chính xác",
+        "password_message": "Mật khẩu quá ngắn",
+        "active": "Kích hoạt",
+        "role": {
+            "title": "Vai trò",
+            "name": "Tên",
+            "authority": "Quyền",
+            "createdBy": "Người tạo"
+
+        },
+        "org": {
+            "title": "Đơn vị y tế",
+            "type": "Loại Đơn Vị"
+        }
+
+
+    },
+    "role": {
+        "title": "Vai trò",
+        "name": "Tên",
+        "authority": "Quyền",
+        "createdBy": "Người tạo"
+    },
+    "tool_tip": {
+        "send_checking": "Gửi rà soát địa chỉ"
+    }
+}
