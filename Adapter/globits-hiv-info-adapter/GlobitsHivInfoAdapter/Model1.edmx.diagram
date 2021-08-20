@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0f31220749e54071ae2f6249b156d4b4" Name="Diagram1">
+        <EntityTypeShape EntityType="hivcdcModel.ActivityLog" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.ADM_BienHeThong" Width="1.5" PointX="5.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.ADM_CapDangKy" Width="1.5" PointX="1.5" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.ADM_CapMaDangKy" Width="1.5" PointX="3.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.ADM_NguoiDung" Width="1.5" PointX="3.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.ADM_NoiDangKy" Width="1.5" PointX="1.5" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocGuiDuLieuGSPH" Width="1.5" PointX="11.25" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH" Width="1.5" PointX="9" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_AIDS" Width="1.5" PointX="14.25" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_AIDS_DieuTri" Width="1.5" PointX="16.5" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_AIDS_DieuTri_PhacDo" Width="1.5" PointX="18.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_DoiRaSoat" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_HIV" Width="1.5" PointX="16.25" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_TheoDoi" Width="1.5" PointX="14.25" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocMauGSPH_TuVong" Width="1.5" PointX="16.25" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocNhapLieuGSPH" Width="1.5" PointX="8.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocPhienGuiDuLieu" Width="1.5" PointX="9" PointY="53.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChuyenDoiDiaGioi" Width="1.5" PointX="6" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChuyenDoiGSPH" Width="1.5" PointX="8.25" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChuyenDoiGSTD" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChuyenDoiXetNghiem" Width="1.5" PointX="8.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_GuiDuLieuGSPH" Width="1.5" PointX="8.25" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_GuiDuLieuGSTD" Width="1.5" PointX="8.25" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_GuiDuLieuXetNghiem" Width="1.5" PointX="8.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH" Width="1.5" PointX="6" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_AIDS" Width="1.5" PointX="11.25" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_AIDS_DieuTri" Width="1.5" PointX="13.5" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_AIDS_DieuTri_PhacDo" Width="1.5" PointX="15.75" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_HIV" Width="1.5" PointX="10.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_TheoDoi" Width="1.5" PointX="11.25" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_TuVong" Width="1.5" PointX="8.25" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPHTen" Width="1.5" PointX="10.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSTD" Width="1.5" PointX="0.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSTD_BenhLayTruyen" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauXetNghiem" Width="1.5" PointX="6" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_NhapLieuGSPH" Width="1.5" PointX="11.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_NhapLieuGSTD" Width="1.5" PointX="14" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_NhapLieuXetNghiem" Width="1.5" PointX="11.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_PhienGuiDuLieu" Width="1.5" PointX="6" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_PhienNhanDuLieu" Width="1.5" PointX="8.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_XetNghiemKQHIV" Width="1.5" PointX="10.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_XetNghiemKQHIVCT" Width="1.5" PointX="12.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_BenhLayTruyen" Width="1.5" PointX="0.75" PointY="77.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_ChucNangVanDong" Width="1.5" PointX="9" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_CoSoDieuTri" Width="1.5" PointX="11.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_DanToc" Width="1.5" PointX="3.75" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_DiaDiemGiamSat" Width="1.5" PointX="1.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_DoiTuong" Width="1.5" PointX="1.5" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_DuongLay" Width="1.5" PointX="3.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_GiaiDoanLamSang" Width="1.5" PointX="12.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_GioiTinh" Width="1.5" PointX="1.5" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_KetQua" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_LoaiBenhNhan" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_LoaiDangKy" Width="1.5" PointX="13.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_LyDoThayThePhacDo" Width="1.5" PointX="13.5" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_NgheNghiep" Width="1.5" PointX="1.5" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_NguyCoLayNhiem" Width="1.5" PointX="3.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_NguyenNhanTuVong" Width="1.5" PointX="18.5" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_NhapLieuTuDien" Width="1.5" PointX="6" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_NoiLayMau" Width="1.5" PointX="3.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_NoiXetNghiem" Width="1.5" PointX="3.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_PhacDo" Width="1.5" PointX="13.5" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_PhacDoDieuTri" Width="1.5" PointX="14.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_QuanHuyen" Width="1.5" PointX="1.5" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_SinhPhamXetNghiem" Width="1.5" PointX="3.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TieuDeHuyen" Width="1.5" PointX="1.5" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TieuDeTinh" Width="1.5" PointX="1.5" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TieuDeXa" Width="1.5" PointX="1.5" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TinhThanh" Width="1.5" PointX="1.5" PointY="57.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TinhTrangHienTai" Width="1.5" PointX="3.75" PointY="38.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TrangThaiDieuTri" Width="1.5" PointX="9" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_TrieuChung" Width="1.5" PointX="9" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_ViTriLayMau" Width="1.5" PointX="1.5" PointY="66.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DIC_XaPhuong" Width="1.5" PointX="1.5" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.dtproperty" Width="1.5" PointX="14.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.sysdiagram" Width="1.5" PointX="14.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.ADM_UPDATE_PROC" Width="1.5" PointX="12.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.CHECKIDACCESS" Width="1.5" PointX="14.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocNhanDuLieuGSPH" Width="1.5" PointX="5.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_ChoLocPhienNhanDuLieu" Width="1.5" PointX="15.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_ChuaRaSoat" Width="1.5" PointX="16.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_HIV_DieuTri" Width="1.5" PointX="16.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.DAT_MauGSPH_NgoaiTinh" Width="1.5" PointX="18.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.dic_cosodieutritmp" Width="1.5" PointX="11.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.Number" Width="1.5" PointX="2.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.tblhcm" Width="1.5" PointX="13.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.AIDS_DIE_HK" Width="1.5" PointX="18.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.AIDS_DIE_TT" Width="1.5" PointX="18.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.GSTD_ALL" Width="1.5" PointX="20.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.HIV_AIDS_HK" Width="1.5" PointX="20.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.HIV_AIDS_TT" Width="1.5" PointX="20.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.HIV_DIE_HK" Width="1.5" PointX="20.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.HIV_DIE_TT" Width="1.5" PointX="22.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DiaDiemGiamSat" Width="1.5" PointX="15.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DIC_DoiTuong" Width="1.5" PointX="11.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DIC_NgheNghiep_GSTD" Width="1.5" PointX="22.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DoiTuongDiaDiem" Width="1.5" PointX="22.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DoiTuongGioiTinh" Width="1.5" PointX="22.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DoiTuongPhatHien" Width="1.5" PointX="22.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DoiTuongPhatHien_Search" Width="1.5" PointX="22.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DoiTuongTrongDiem" Width="1.5" PointX="22.75" PointY="23.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_DoiTuongXetNghiem" Width="1.5" PointX="24.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_All" Width="1.5" PointX="24.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_All_NgoaiTinh" Width="1.5" PointX="24.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_HoKhau" Width="1.5" PointX="26.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_NIHE" Width="1.5" PointX="26.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_PI_HOCHIMINH" Width="1.5" PointX="20.75" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_PI_NHATRANG" Width="1.5" PointX="26.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_HIVAIDS_TAYNGUYEN" Width="1.5" PointX="28.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_KetXuatGSPH" Width="1.5" PointX="28.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_KetXuatGSTD" Width="1.5" PointX="28.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_KetXuatGSTD_All" Width="1.5" PointX="28.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_KetXuatXN" Width="1.5" PointX="30.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.VW_MauGSPH_ChuaRaSoat" Width="1.5" PointX="30.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.VW_MauGSPH_NgoaiTinh" Width="1.5" PointX="30.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_MauXetNghiem" Width="1.5" PointX="32.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_PhanTichTheoNhomTuoi" Width="1.5" PointX="32.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_PhanTichTheoNhomTuoi_AIDS" Width="1.5" PointX="32.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_PhanTichTheoNhomTuoi_DIE" Width="1.5" PointX="32.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_PhanTichTheoNhomTuoi_HIV" Width="1.5" PointX="32.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vw_ThongKeHIVTheoDoiTuong" Width="1.5" PointX="22.75" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.vwBaoCaoKetQuaGSTDTheoKhoangTuoi" Width="1.5" PointX="34.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="hivcdcModel.xem" Width="1.5" PointX="34.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="hivcdcModel.FK_ADM_NoiDangKy_ADM_CapDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_ADM_CapMaDangKy_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_ADM_NguoiDung_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocPhienGuiDuLieu_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSPH_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSPH_ADM_NguoiDung1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSPH_ADM_NguoiDung2" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSTD_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSTD_ADM_NguoiDung1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSTD_ADM_NguoiDung2" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuXetNghiem_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuXetNghiem_ADM_NguoiDung1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuXetNghiem_ADM_NguoiDung2" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_PhienGuiDuLieu_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_PhienNhanDuLieu_ADM_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_NhapLieuTuDien_ADM_NguoiDungNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_NhapLieuTuDien_ADM_NguoiDungSua" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_NhapLieuTuDien_ADM_NguoiDungXoa" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_HIV_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_TuVong_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocPhienGuiDuLieu_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_TuVong_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_PhienGuiDuLieu_ADM_NoiDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocGuiDuLieuGSPH_DAT_ChoLocMauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocGuiDuLieuGSPH_DAT_ChoLocPhienGuiDuLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DAT_ChoLocMauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_TheoDoi_DAT_ChoLocMauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_DanToc" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_DuongLay" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_GioiTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_NgheNghiep" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_NguyCoLayNhiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_QuanHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_QuanHuyen1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_TinhThanh1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_TinhTrangHienTai" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_XaPhuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_DIC_XaPhuong1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_HIV_DAT_ChoLocMauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_TuVong_DAT_ChoLocMauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DIC_NoiXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DIC_TrangThaiDieuTri" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DieuTri_DAT_ChoLocMauGSPH_AIDS" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DieuTri_DIC_CoSoDieuTri" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DieuTri_PhacDo_DAT_ChoLocMauGSPH_AIDS_DieuTri" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DieuTri_PhacDo_DIC_LyDoThayThePhacDo" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_DieuTri_PhacDo_DIC_PhacDo" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_HIV_DIC_NoiLayMau" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_HIV_DIC_NoiXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_TheoDoi_DIC_ChucNangVanDong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChoLocMauGSPH_AIDS_TheoDoi_DIC_TrieuChung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_DIC_QuanHuyenCu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_DIC_QuanHuyenMoi" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_DIC_TinhThanhCu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_DIC_TinhThanhMoi" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_DIC_XaPhuongCu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiDiaGioi_DIC_XaPhuongMoi" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiGSPH_DAT_MauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiGSTD_DAT_MauGSTD" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_ChuyenDoiXetNghiem_DAT_MauXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_GuiDuLieuGSPH_DAT_MauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_GuiDuLieuGSPH_DAT_PhienGuiDuLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_GuiDuLieuGSTD_DAT_MauGSTD" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_GuiDuLieuGSTD_DAT_PhienGuiDuLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_GuiDuLieuXetNghiem_DAT_MauXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_GuiDuLieuXetNghiem_DAT_PhienGuiDuLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DAT_MauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_DanToc" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_DuongLay" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_GioiTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_NgheNghiep" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_NguyCoLayNhiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_QuanHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_QuanHuyen1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_TinhThanh1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_TinhTrangHienTai" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_XaPhuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_DIC_XaPhuong1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_TheoDoi_DAT_MauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_TuVong_DAT_MauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSPH_DAT_MauGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DIC_TrangThaiDieuTri" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DieuTri_DAT_MauGSPH_AIDS" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DieuTri_DIC_CoSoDieuTri" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DieuTri_PhacDo_DAT_MauGSPH_AIDS_DieuTri" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DieuTri_PhacDo_DIC_LyDoThayThePhacDo" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_AIDS_DieuTri_PhacDo_DIC_PhacDo" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_TheoDoi_DIC_ChucNangVanDong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSPH_TheoDoi_DIC_TrieuChung" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_BenhLTTD_DAT_MauGSTD" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_DiaDiemGiamSat" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_GioiTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_NgheNghiep" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_QuanHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_ViTriLayMau" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_DIC_XaPhuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuGSTD_DAT_MauGSTD" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_BenhLayTruyen_DIC_BenhLayTruyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauGSTD_BenhLayTruyen_DIC_KetQua" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_DuongLay" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_GioiTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_KetQua" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_KetQua1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_KetQua2" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_KetQua3" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_NgheNghiep" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_NoiLayMau" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_NoiXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_QuanHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_SinhPhamXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_SinhPhamXetNghiem1" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_SinhPhamXetNghiem2" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_SinhPhamXetNghiem3" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_MauXetNghiem_DIC_XaPhuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DAT_NhapLieuXetNghiem_DAT_MauXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_CoSoDieuTri_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_DoiTuong_DIC_DoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_NoiLayMau_DIC_NoiLayMau" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_NoiLayMau_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_NoiXetNghiem_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_QuanHuyen_DIC_TieuDeHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_QuanHuyen_DIC_TinhThanh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_XaPhuong_DIC_QuanHuyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_TinhThanh_DIC_TieuDeTinh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.FK_DIC_XaPhuong_DIC_TieuDeXa" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.ADM_NoiDangKy_Huyen" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.ADM_NoiDangKy_QuyenQuanLy" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.ADM_NoiDangKy_Tinh" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.ADM_NoiDangKy_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DAT_ChoLocMauGSPH_TuVong_NguyenNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DAT_MauGSPH_TuVong_NguyenNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DAT_NhanDuLieuGSPH" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DAT_NhanDuLieuGSTD" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DAT_NhanDuLieuXetNghiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DIC_DoiTuongDiaDiem" ManuallyRouted="false" />
+        <AssociationConnector Association="hivcdcModel.DIC_DoiTuongGioiTinh" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
