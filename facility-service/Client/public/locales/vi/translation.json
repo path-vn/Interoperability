@@ -1,0 +1,512 @@
+﻿{
+  "web_site": "Facility Service",
+  "mess_add": "Thêm thành công",
+  "mess_edit": "Sửa thành công",
+  "mess_code": "Mã đã tồn tại, vui lòng nhập lại mã khác",
+  "mes_error_add": "Bản ghi đã tồn tại",
+  "mes_error_edit": "Có lỗi xảy ra khi sửa",
+  "minDateMessage": "Ngày không được trước ngày tối thiểu",
+  "maxDateMessage": "Ngày không được sau ngày tối đa",
+  "wrongFormat": "Sai định dạng",
+  "Cancel": "Hủy",
+  "all": "Toàn bộ",
+  "Save": "Lưu",
+  "update": "Cập nhật",
+  "add": "Thêm mới",
+  "year": "Năm",
+  "male":"Nam",
+  "female": "Nữ",
+  "ratio": "Tỉ lệ",
+  "Select": "Lựa chọn",
+  "Action": "Thao tác",
+  "Dashboard": {
+    "dashboard": "Trang chủ",
+    "detail": "Thống kê",
+    "manageCovid": "Quản lý dịch",
+    "AdministrativeUnit": "Đơn vị hành chính",
+    "systemAdressCode":"Đồng bộ đơn vị hành chính",
+    "healthOrganization":"Đơn vị y tế",
+    "systemHealthOrganizationCode":"Đồng bộ đơn vị y tế",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "profile": "Thông tin tài khoản",
+    "directory": "Danh mục",
+    "asset": "Tài sản",
+    "assetManagement": "Quản lý tài sản",
+    "materialManagement": "Quản lý vật tư",
+    "count_of_allocations": "Lượt cấp phát",
+    "count_of_transfer": "Lượt điều chuyển",
+    "asset_broken": "Tài sản hỏng",
+    "category": "Danh mục",
+    "manage": "Quản lý",
+    "sample":"Tổng số mẫu xét nghiệm theo đơn vị y tế",
+    "bar_chart_title":"Tổng số mẫu xét nghiệm theo đơn vị y tế",
+    "sampleByTime":"Tổng số mẫu xét nghiệm theo thời gian",
+    "multi_line_title":"Tổng số mẫu xét nghiệm theo theo thời gian"
+  },
+  "epidemiological_factors":{
+    "title" : "Yếu tố nguy cơ"
+  },
+  "general": {
+    "noti": "Thông báo",
+    "print": "In Phiếu",
+    "exportToExcel": "Xuất Excel",
+    "importExcel": "Nhập Excel",
+    "successExport": "Xuát excel thành công",
+    "select": "Chọn",
+    "select_asset": "Chọn tài sản",
+    "saveUpdate": "Thêm mới/Cập nhật",
+    "update": "Cập nhật",
+    "cancel": "Hủy",
+    "search": "Tìm kiếm",
+    "search_tree_department": "Tìm kiếm phòng ban",
+    "save": "Lưu",
+    "viewDocument": "Xem tài liệu",
+    "downloadDocument": "Tải xuống",
+    "removeDocument": "Xoá tài liệu",
+    "viewDetail": "Xem chi tiết",
+    "add": "Thêm mới",
+    "details": "Thông tin chi tiết",
+    "deleteAllConfirm": "Bạn có chắc chắn xóa toàn bộ?",
+    "deleteConfirm": "Bạn có chắc chắn xóa?",
+    "enterSearch": "Nhập từ khóa tìm kiếm",
+    "confirm": "Xác nhận",
+    "deleteSelectConfirm": "Bạn có chắc chắn xóa những bản ghi đã chọn?",
+    "agree": "Đồng ý",
+    "pleaseSelect": "Vui lòng chọn",
+    "deleteQuestion": "Bạn có chắc chắn muốn xóa?",
+    "list": "Danh sách",
+    "code": "Mã",
+    "name": "Tên",
+    "description": "Mô tả",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "editIcon": "Sửa",
+    "viewIcon": "Xem",
+    "deleteIcon": "Xóa",
+    "action": "Thao tác",
+    "cancel_asset_allocation": "Bạn có chắc chắc muốn xóa phiếu cấp phát này?",
+    "no_edit_permission": "Bạn không có quyền sửa",
+    "filterStatus": "Lọc theo trạng thái",
+    "filterAssetGroup": "Lọc theo nhóm tài sản",
+    "error": "Có lỗi xảy ra, vui lòng thử lại.",
+    "error_reload_page": "Có lỗi xảy ra, vui lòng tải lại trang.",
+    "email": "Email",
+    "language": "Ngôn ngữ",
+    "index": "STT",
+    "emptyDataMessageTable": "Không có bản ghi nào",
+    "rows_per_page": "Số hàng mỗi trang:",
+    "or": "hoặc",
+    "caculator": "Tính",
+    "close": "Đóng",
+    "stt": "STT",
+    "filterYear": "Chọn năm",
+    "upload": "Tải lên",
+    "remove": "Xoá",
+    "select_file": "Chọn tệp",
+    "size": "Kích thước",
+    "file_name": "Tên tệp",
+    "empty_file": "Trống",
+    "noti_check_data": "Chưa chọn dữ liệu",
+    "all": "Toàn bộ",
+    "required": "Trường này là bắt buộc",
+    "success": "Thành công",
+    "type_not_accepted": "File không đúng định dạng",
+    "filterDerpartment": "Lọc theo phòng ban",
+    "historyIcon": "Xem lịch sử",
+    "of": "trong",
+    "selects": "Đã chọn {0} hàng",
+    "download": "Tải về",
+    "view": "Xem",
+    "add_asset": "Thêm tài sản",
+    "warrantyMonthError": "Tháng bảo hành không hợp lệ",
+    "yearPutIntoUseError": "Năm đưa vào sử dụng không hợp lệ",
+    "confirmCalculator": "Bạn có chắc chắn muốn lưu?",
+    "add_file": "Thêm tài liệu",
+    "allProduct": "Tất cả sản phẩm",
+    "invalidDateFormat": "Định dạng ngày tháng không hợp lệ",
+    "Yes": "Đồng ý",
+    "invalidNumberFormat": "Không hợp lệ",
+    "moreThan0": "Phải lớn hơn 0",
+    "No": "Hủy",
+    "deleteSuccess": "Xoá thành công",
+    "emailError": "Email không hợp lệ",
+    "passwordMiss": "Mật khẩu không trùng khớp",
+    "select_data": "Bạn chưa chọn dữ liệu",
+    "errorMessages_required": "Đây là trường bắt buộc",
+    "updateSuccess": "Cập nhật thành công",
+    "dupli_code":"Mã đã được sử dụng",
+    "addSuccess": "Thêm mới thành công"
+  },
+  "Gis": {
+    "province": "Tỉnh/Thành phố",
+    "district": "Quận/Huyện",
+    "Title": "Bản đồ"
+  },
+  "Add": "Thêm mới",
+  "Details": "Thông tin chi tiết",
+  "DeleteAllConfirm": "Bạn có chắc chắn xóa toàn bộ?",
+  "DeleteConfirm": "Bạn có chắc chắn xóa",
+  "EnterSearch": "Nhập từ khóa tìm kiếm",
+  "confirm": "Xác nhận",
+  "PleaseSelect": "Vui lòng chọn",
+  "deleteQuestion": "Bạn có chắc chắn muốn xóa",
+  "approveQuestion": "Bạn có chắc chắn muốn phê duyệt các lịch đã chọn?",
+  "publishQuestion": "Bạn có chắc chắn muốn xuất bản các lịch đã chọn?",
+  "Print": "Tiến hành In",
+  "Yes": "Có",
+  "No": "Không",
+  "or": "hoặc",
+  "good": "Tốt",
+  "not good": "Không tốt",
+  "username": "Tài khoản",
+  "password": "Mật khẩu",
+  "re_password": "Nhập lại mật khẩu",
+  "forgot_password": "Quên mật khẩu?",
+  "level": "Cấp",
+  "landing_page": {
+    "noti": "Thông báo: ",
+    "no_eqaRound": "Hiện tại không có vòng ngoại kiểm nào.",
+    "eqaPlanning": "Kế hoạch ngoại kiểm: ",
+    "startDate": "Thời gian bắt đầu: ",
+    "endDate": "Thời gian kết thúc: "
+  },
+  "sign_in": {
+    "title": "Đăng nhập"
+  },
+  "sign_up": {
+    "title": "Đăng ký",
+    "title_form": "Đăng ký tài khoản",
+    "info_login": "Thông tin đăng nhập"
+  },
+  "Download": "Tải về",
+  "button": {
+    "add": "Thêm mới",
+    "delete": "Xóa"
+  },
+  "user": {
+    "title": "Tài khoản",
+    "userList": "Danh sách tài khoản người dùng",
+    "displayName": "Họ và tên",
+    "firstName": "Họ đệm",
+    "lastName": "Tên",
+    "gender": "Giới tính",
+    "username": "Tên đăng nhập",
+    "changePass": "Đổi mật khẩu",
+    "active": "Kích hoạt",
+    "role": "Vai trò",
+    "department": "Thuộc phòng ban",
+    "please_select_permission": "Vui lòng chọn ít nhất 1 quyền",
+    "email": "Email",
+    "isMainDepartment": "Phòng ban chính",
+    "search": "Tìm kiếm theo tên hoặc phòng ban",
+    "current_password": "Mật khẩu hiện tại",
+    "pass": "Mật khẩu",
+    "re_pass": "Nhập lại mật khẩu",
+    "confirm_password": "Xác nhận mật khẩu",
+    "filter": "Tìm kiếm theo tên đăng nhập, email và họ tên người dùng",
+    "person_info": "Thông tin người dùng",
+    "saveUpdate": "Thêm mới/Cập nhật người sử dụng",
+    "passwordMessage": "Mật khẩu quá ngắn",
+    "passwordMatchMessage": "Mật khẩu không khớp"
+  },
+  "role": {
+    "title": "Vai trò",
+    "name": "Tên",
+    "authority": "Quyền",
+    "createdBy": "Người tạo"
+  },
+  "manage": {
+    "profile_is_logged": "Quản lý Profile đang đăng nhập",
+    "user": "Quản lý người dùng",
+    "menu": "Quản lý Menu",
+    "isMainDepartment": "Chọn phòng ban chính",
+    "department": "Phòng ban",
+    "departmentList": "Danh sách phòng ban"
+  },
+  "InventoryCountVoucher": {
+    "title": "Kiểm kê tài sản",
+    "stt": "STT",
+    "inventoryCountDate": "Ngày kiểm kê",
+    "inventoryCountPerson": "Người kiểm kê",
+    "department": "Đơn vị được kiểm kê",
+    "status": "Trạng thái",
+    "asset": "Tài sản",
+    "add": "Thêm mới phiếu",
+    "note": "Ghi chú",
+    "enterSearch": "Tìm kiếm theo tên, phòng ban và trạng thái",
+    "dialog": "Thêm mới/Cập nhật phiếu kiểm kê tài sản"
+  },
+  "InventoryCountStatus": {
+    "name": "Tên trạng thái kiểm kê",
+    "code": "Mã trạng thái kiểm kê",
+    "indexOrder": "Thứ tự",
+    "title": "Trạng thái kiểm kê",
+    "add": "Thêm mới phiếu",
+    "CountAsset": {
+      "note": "Ghi chú",
+      "currentStatus": "Trạng thái hiện tại",
+      "status": "Trạng thái cập nhật"
+    },
+    "filter": "Tìm kiếm theo tên hoặc mã trạng thái",
+    "noti": {
+      "use": "Trạng thái kiểm kê đang sử dụng, không thể xóa",
+      "use_all": "Trạng thái kiểm kê đều đã sử dụng",
+      "deleted_unused": "Đã xoá trạng thái kiểm kê chưa sử dụng",
+      "dupli_code": "Mã đã được sử dụng"
+    }
+  },
+  "AggregateAssetsByAssetGroup": {
+    "title": "Báo cáo tổng hợp tài sản theo nhóm tài sản",
+    "total_assets": "Tổng số tài sản ",
+    "total_assets_by_group": "Tổng số tài sản theo nhóm "
+  },
+  "staff": {
+    "title": "Nhân viên",
+    "name": "Tên nhân viên",
+    "code": "Mã nhân viên",
+    "firstName": "Tên",
+    "lastName": "Họ",
+    "displayName": "Họ và tên nhân viên",
+    "gender": "Giới tính",
+    "birthDate": "Ngày sinh",
+    "birthPlaceame": "Nơi sinh",
+    "phoneNumber": "SĐT",
+    "email": "Email",
+    "search": "Tìm kiếm theo tên hoặc mã nhân viên",
+    "UserName": "Tên đăng nhập",
+    "department": "Phòng ban",
+    "Email": "Email",
+    "noti": {
+      "use": "Nhân viên đang sử dụng, không thể xóa",
+      "use_all": "Nhân viên đều đã sử dụng",
+      "deleted_unused": "Đã xoá nhân viên chưa sử dụng",
+      "dupli_code": "Mã đã được sử dụng"
+    }
+  },
+  "menu": {
+    "title": "Quản lý Menu",
+    "description": "Mô tả",
+    "code": "Mã menu",
+    "name": "Tên menu",
+    "icon": "Biểu tượng",
+    "key": "Tên menu",
+    "path": "Đường dẫn",
+    "parent": "Menu cha"
+  },
+  "region": {
+    "title": "Vùng",
+    "vitimesId": "Id",
+    "name": "Tên vùng",
+    "active": "Kích hoạt",
+    "ListRegion": "Danh sách vùng"
+  },
+  "province": {
+    "title": "Tỉnh",
+    "name": "Tên tỉnh",
+    "code": "Mã tỉnh",
+    "vitimesId": "Id",
+    "areaId": "Khu vực",
+    "regionId": "Vùng",
+    "population": "Dân số",
+    "managedRegionId": "Khu vực quản lý",
+    "expiredDate": "Ngày hết hạn",
+    "active": "Kích hoạt"
+  },
+  "district": {
+    "title": "Quận/Huyện",
+    "name": "Tên quận/huyện",
+    "idOld": "ID cũ",
+    "vitimesId": "ID",
+    "provinceIdOld": "ID tỉnh cũ",
+    "provinceId": "ID tỉnh",
+    "active": "Kích hoạt",
+    "isHTDT": "isHTDT",
+    "sMSCode": "Mã SMS"
+  },
+  "area": {
+    "title": "Khu vực",
+    "vitimesId": "Id",
+    "name": "Tên khu vực",
+    "regionId": "Vùng",
+    "active": "Kích hoạt"
+  },
+  "statisticalData": {
+    "PediatricTBAndTuberculosisHiv": "Lao trẻ em và Lao/HIV",
+    "SickAndCure": "Đăng ký điều trị",
+    "SumPediatricTBAndTuberculosisHiv": "Tỉ lệ Lao trẻ em số bệnh Lao/HIV",
+    "SumSickAndCure": "Tỉ lệ bệnh nhân tái phát và thành công"
+  },
+  "facility": {
+    "title": "Cơ sở",
+    "name": "Tên cơ sở",
+    "idOld": "ID cũ",
+    "vitimesId": "ID",
+    "provinceIdOld": "ID tỉnh cũ",
+    "provinceId": "ID tỉnh",
+    "active": "Kích hoạt",
+    "isHTDT": "isHTDT",
+    "sMSCode": "Mã SMS"
+  },
+  "sessions": {
+    "userNameNotEmpty": "Tài khoản không đươc để trống",
+    "passWordNotEmpty": "Mật khẩu không được để trống"
+  },
+  "targetsDashboard": {
+    "title": "Bảng điều khiển mục tiêu",
+    "tuberculosisAFB": "Số bệnh nhân lao phổi AFB (+)",
+    "successfulTreatment": "Số bệnh nhân điều trị thành công",
+    "bacteriology": "Số bệnh nhân mắc lao có bằng chứng vi khuẩn học",
+    "HIVCounselingAndTesting": "Số bệnh nhân Lao được tư vấn và xét nghiệm HIV",
+    "detected": "Số bệnh nhân Lao được phát hiện"
+  },
+  "ProgrammaticDashboards":{
+    "title": "Bảng điều khiển chương trình",
+    "demographicCharacteristics":"Đặc điểm nhân khẩu học",
+    "delayTreatment": "Xu hướng hoãn điều trị",
+    "treatmentResults": "Kết quả điều trị",
+    "proportionalToAge": "% số lượng theo độ tuổi",
+    "epidemiologicalFactors":"Yếu tố dịch tễ"
+  },
+  "suspected_person": {
+    "title":"Người nghi nhiễm",
+    "name":"Tên",
+    "givenName":"Họ",
+    "birthDate":"Năm sinh",
+    "gender":"Giới tính",
+    "physicalAdminUnitName":"Địa chỉ tạm trú",
+    "physicalAdminUnit":"Địa chỉ tạm trú",
+    "residentAdminUnitName":"Địa chỉ thường trú",
+    "residentAdminUnit":"Địa chỉ thường trú",
+    "suspectedLevel":"Cấp độ nghi nhiễm",
+    "suspectedType":"Loại nghi nhiễm",
+    "epidemiologicalFactors": "Yếu tố dịch tễ",
+    "career": "Nghề nghiệp",
+    "search" :"Tìm kiếm theo số điện thoại hoặc chứng minh",
+    "phone": "Số điện thoại",
+    "idNumber": "Số chứng minh nhân dân"
+  },
+  "chart": {
+    "pediatricTuberculosisPatients": "Lao trẻ em",
+    "totalNumberOfTBPatients":"Tổng số Lao",
+    "tuberculosisHIV":"Lao/HIV",
+    "new": "Mới",
+    "relapse": "Tái phát",
+    "successfulTreatment": "Điều trị thành công",
+    "male": "Nam",
+    "female": "Nữ",
+    "tuberculosisHIVPatientsChildTuberculosis":"Biểu đồ chỉ số bệnh nhân Lao/HIV, lao trẻ em",
+    "indicatorsRelapsesSuccessfulTreatment": "Biểu đồ chỉ số bệnh nhân mới, tái phát, điều trị thành công",
+    "patientRateByAge": "Tỷ lệ bệnh nhân theo độ tuổi",
+    "rateChartRelapseSuccessfulTreatment": "Biểu đồ tỷ lệ chỉ số bệnh nhân mới, tái  phát, điều trị thành công",
+    "TBHIVChildTuberculosis": "Biểu đồ tỷ lệ chỉ số bệnh nhân Lao/HIV, lao trẻ em",
+    "patientIndexByGenderChart": "Biểu đồ tỷ lệ chỉ số bệnh nhân theo giới tính",
+    "TBHIVPatientsChildTuberculosisOverTime" : "Biểu đồ tỷ lệ bệnh nhân Lao/HIV, lao trẻ em theo thời gian",
+    "TBHIVChildTuberculosisByGeographicalLocation":"Biểu đồ bệnh nhân Lao/HIV, Lao trẻ em theo vị trí địa lý",
+    "newPatientChartRelapseReTreatmentOverTime": "Biểu đồ bệnh nhân mới, tái phát, điều trị lại theo thời gian",
+    "newPatientChartRelapseGeographicalReTreatment": "Biểu đồ bệnh nhân mới, tái phát ,điều trị lại theo vị trí địa lý",
+    "expected": "Dự kiến",
+    "reality": "Thực tế",
+    "chartOfTreatmentDeferredTrend":"Biểu đồ xu hướng hoãn điều trị",
+    "time":"Số ngày",
+    "numberOfCuredPatients": "Số bệnh nhân được chữa khỏi",
+    "treatmentFailed": "Điều trị thất bại",
+    "patientDies": "Bệnh nhân chết",
+    "unsEvaluated": "Không đánh giá được",
+    "canotTrack": "Không theo dõi được",
+    "complete": "Hoàn thành",
+    "showHidingTuberculosisPatientInformation":"GIS- ẩn hiện thông tin bệnh nhân lao",
+    "hideShowDensityInformation": "Ẩn hiện thông tin mật độ",
+    "numberOfCases": "Số lượng ca bệnh",
+    "numberOfXpertMachines": "Số lượng máy Xpert",
+    "highchartsSummarySampleTestingStatus":"Tóm tắt tình trạng mẫu xét nghiệm"
+  }, 
+  "sample": {
+    "title1": "Mẫu xét nghiệm thường",
+    "title2": "Mẫu xét nghiệm gộp",
+    "code" : "Mã mẫu",
+    "name" : "Tên mẫu",
+    "suspect": {
+      "level": "Mức độ nghi nhiễm",
+      "type": "Nguồn lây nghi nhiễm"
+    }
+  },
+  "report": {
+    "title": "Báo cáo"
+  },
+  "administrativeUnit" : {
+    "title": "Đơn vị hành chính",
+    "titlePopup": "đơn vị hành chính",
+    "code": "Mã đơn vị",
+    "name": "Tên đơn vị",
+    "selectParent": "Chọn đơn vị trực thuộc"
+  }, 
+  "systemAdressCode":{
+    "title":"Đồng bộ đơn vị hành chính",
+    "titlePopup":"đồng bộ đơn vị hành chính",
+    "code": "Mã theo nguồn dữ liệu",
+    "name": "Tên theo nguồn dữ liệu"
+  },
+  "healthOrganization":{
+    "title":"Đơn vị y tế",
+    "titlePopup":"Đơn vị y tế",
+    "code": "Mã đơn vị y tế",
+    "name": "Tên đơn vị y tế"
+  },
+  "systemHealthOrganizationCode":{
+    "title":"Đồng bộ đơn vị y tế",
+    "titlePopup":"đồng bộ đơn vị y tế",
+    "code": "Mã theo nguồn dữ liệu",
+    "name": "Tên theo nguồn dữ liệu"
+  },
+  "epidemiologicalFactors": {
+    "title": "Yếu tố nguy cơ"
+  }, 
+  "healthOrg": {
+    "title": "Đơn vị Y tế",
+    "name" :"Tên đơn vị y tế",
+    "type" : "Loại đơn vị y tế",
+    "select": "Chọn đơn vị y tế"
+  },
+  "healthResource": {
+    "title": "Nguồn lực",
+    "select": "Chọn nguồn lực"
+  },
+  "HealthResourceCategory": {
+    "title": "Loại nguồn lực",
+    "select": "Chọn loại nguồn lực"
+  },
+  "SuspectedLevel" : {
+    "title": "Cấp độ nghi nhiễm",
+    "code": "Mã",
+    "name": "Tên"
+  },
+  "suspectedType": {
+    "title": "Nguồn lây nghi nhiễm",
+    "code": "Mã",
+    "name": "Tên"
+  },
+  "HealthOrganization": {
+    "title": "Tổ chức Y tế",
+    "EnterSearch": "Nhập từ khóa tìm kiếm",
+    "Name": "Tên tổ chức",
+    "Code": "Mã tổ chức"
+  },
+  "component": {
+    "product": {
+      "title": "Chọn cấp cha"
+    }
+  },
+  "numberOfTestsByStatus":{
+    "title":"Báo cáo tổng hợp mẫu theo trạng thái mẫu"
+  },
+  "reportSampleByHealthOrgDto":{
+    "title":"Báo cáo tổng hợp mẫu theo phòng xét nghiệm"
+  },
+  "reportSampleByCollectOrg":{
+    "title":"Báo cáo tổng hợp mẫu theo đơn vị lấy mẫu"
+  },
+  "reportSampleBySuspectedLevel": {
+    "title": "Báo cáo tổng hợp mẫu theo cấp độ nghi nghiễm"
+  }
+}

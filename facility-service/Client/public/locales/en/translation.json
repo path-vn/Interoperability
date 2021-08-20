@@ -1,0 +1,393 @@
+{
+  "web_site": "Medical Device Management Software",
+  "mess_add": "Thêm thành công",
+  "mess_code": "Mã đã tồn tại, vui lòng nhập lại mã khác",
+  "mess_edit": "Sửa thành công",
+  "mes_error_add": "Có lỗi xảy ra khi thêm mới",
+  "mes_error_edit": "Có lỗi xảy ra khi sửa",
+  "minDateMessage": "Date should not be before minimal date",
+  "maxDateMessage": "Date should not be after maximal date",
+  "Cancel": "Cancle",
+  "all": "All",
+  "Save": "Save",
+  "wrongFormat": "Wrong format",
+  "update": "Update",
+  "add": "Add",
+  "year": "Year",
+  "male":"Male",
+  "ratio": "Ratio",
+  "female": "Female",
+  "Select": "Select",
+  "Dashboard": {
+    "dashboard": "Dashboard",
+    "manageCovid": "Manage Covid",
+    "detail": "Dashboard Detail",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile",
+    "asset": "Asset",
+    "count_of_allocations": "Count Of Allocations",
+    "count_of_transfer": "Count Of Transfer",
+    "assetManagement": "Asset Management",
+    "materialManagement": "Material  Management",
+    "asset_broken": "Asset Broken",
+    "category": "Category",
+    "manage": "Manage"
+  },
+  "general": {
+    "noti": "Notification",
+    "exportToExcel": "Export Excel",
+    "importExcel": "Import Excel",
+    "saveUpdate": "Save/Update",
+    "update": "Update",
+    "select": "Select",
+    "select_asset": "Select Asset",
+    "cancel": "Cancel",
+    "search": "Search",
+    "save": "Save",
+    "viewDocument": "View document",
+    "downloadDocument": "Download document",
+    "removeDocument": "Remove document",
+    "viewDetail": "View detail",
+    "search_tree_department": "Search department",
+    "add": "Add",
+    "details": "Details",
+    "deleteAllConfirm": "Delete all confirm?",
+    "deleteSelectConfirm": "Are your sure that Delete selected records",
+    "deleteConfirm": "Delete confirm",
+    "enterSearch": "Enter search",
+    "confirm": "Confirm",
+    "agree": "Agree",
+    "pleaseSelect": "Please select",
+    "deleteQuestion": "Delete question?",
+    "list": "List",
+    "code": "Code",
+    "name": "Name",
+    "description": "Description",
+    "delete": "Delete",
+    "action": "Action",
+    "filterStatus": "Filter with status",
+    "filterAssetGroup": "Filter with asset group",
+    "email": "Email",
+    "language": "Language",
+    "editIcon": "Edit",
+    "deleteIcon": "Delete",
+    "index": "No.",
+    "emptyDataMessageTable": "No records to display",
+    "rows_per_page": "Rows per page:",
+    "or": "or",
+    "caculator": "Caculator",
+    "close": "Close",
+    "filterYear": "Select year",
+    "upload": "Upload",
+    "remove": "Remove",
+    "select_file": "Choose file",
+    "size": "Size",
+    "file_name": "File name",
+    "empty_file": "Empty file",
+    "noti_check_data": "No data selected",
+    "all": "All",
+    "filterDerpartment": "Filter derpartment",
+    "historyIcon": "View History",
+    "of": "of",
+    "selects": "{0} row(s) selected",
+    "add_asset": "Add Asset",
+    "required": "This field is required",
+    "warrantyMonthError": "Warranty Month is not valid",
+    "yearPutIntoUseError": "Year Put Into Use is not valid"
+  },
+  "user": {
+    "title": "Account",
+    "userList": "List users",
+    "displayName": "Full name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "gender": "Gender",
+    "username": "User name",
+    "changePass": "Change password",
+    "active": "Active",
+    "role": "Role",
+    "department": "Department",
+    "please_select_permission": "Please select at least a role",
+    "isMainDepartment": "Main department",
+    "pass": "Password",
+    "current_password": "Current password",
+    "confirm_password": "Confirm password",
+    "re_pass": "Re password",
+    "filter": "Search by name user",
+    "person_info": "Personal information",
+    "saveUpdate": "Save/Update"
+  },
+  "role": {
+    "title": "Role",
+    "name": "Name",
+    "authority": "Authority",
+    "createdBy": "Create by"
+  },
+  "manage": {
+    "profile_is_logged": "Management profile",
+    "user": "Management user",
+    "menu": "Management menu",
+    "isMainDepartment": "Select Main Deartment",
+    "department": "Department",
+    "departmentList": "Department List"
+  },
+  "InventoryCountVoucher": {
+    "title": "Inventory Count Asset",
+    "stt": "Order number",
+    "inventoryCountDate": "Date",
+    "inventoryCountPerson": "Inventory Count Person",
+    "department": "Departemnt",
+    "status": "Status",
+    "asset": "Asset",
+    "add": "Add",
+    "note": "Note",
+    "enterSearch": "Search by name, department and status"
+  },
+  "InventoryCountStatus": {
+    "name": "Inventory count status name",
+    "code": "Inventory count status code",
+    "indexOrder": "Order number",
+    "title": "Inventory count status",
+    "filter": "Search by name and code",
+    "CountAsset": {
+      "note": "Note",
+      "currentStatus": "Current Status",
+      "status": "Status update"
+    },
+    "noti": {
+      "use": "The inventory count status is in use, cannot be deleted",
+      "use_all": "All inventory count status are used",
+      "deleted_unused": "Deleted unused maintain inventory count status",
+      "dupli_code": "Code already in use"
+    }
+  },
+  "AggregateAssetsByAssetGroup": {
+    "title": "Summary report By Group",
+    "total_assets": "Total Assets ",
+    "total_assets_by_group": "Total Assets By Group "
+  },
+  "sign_in": {
+    "title": "Login"
+  },
+  "sign_up": {
+    "title": "Register",
+    "title_form": "Register Account"
+  },
+  "forgot_password": "Forgot Password?",
+  "username": "Username",
+  "password": "Password",
+  "re_password": "Re password",
+  "level": "Level",
+  "staff": {
+    "title": "Staff",
+    "name": "Staff name",
+    "code": "Staff code",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "displayName": "Display name",
+    "gender": "Gender",
+    "birthDate": "Birth date",
+    "birthPlaceame": "Birth placeame",
+    "phoneNumber": "Phone number",
+    "email": "Email",
+    "search": "Search by name and code",
+    "UserName": "User name",
+    "department": "Department",
+    "noti": {
+      "use": "Nhân viên đang sử dụng, không thể xóa",
+      "use_all": "Nhân viên đều đã sử dụng",
+      "deleted_unused": "Đã xoá nhân viên chưa sử dụng",
+      "dupli_code": "Mã đã được sử dụng"
+    }
+  },
+  "region": {
+    "title": "Region",
+    "vitimesId": "Region ID",
+    "name": "Region name",
+    "active": "Active",
+    "ListRegion": "List region"
+  },
+  "province": {
+    "title": "Province",
+    "name": "Provice name",
+    "code": "Provice code",
+    "vitimesId": "Provice ID",
+    "areaId": "Area",
+    "regionId": "Region",
+    "population": "Population",
+    "managedRegionId": "Managed Region",
+    "expiredDate": "Expired Date",
+    "active": "Active"
+  },
+  "district": {
+    "title": "District",
+    "name": "District name",
+    "idOld": "Old ID",
+    "vitimesId": "District ID",
+    "provinceIdOld": "Old district ID",
+    "provinceId": "Provice ID",
+    "active": "Active",
+    "isHTDT": "isHTDT",
+    "sMSCode": "SMS Code"
+  },
+  "area": {
+    "title": "Area",
+    "vitimesId": "Area Id",
+    "name": "Area name",
+    "regionId": "Region",
+    "active": "Active"
+  },
+  "statisticalData": {
+    "PediatricTBAndTuberculosisHiv": "Tuberculosis in Children and Tuberculosis / HIV",
+    "SickAndCure": "Cured and relapsed",
+    "SumPediatricTBAndTuberculosisHiv": "Prevalence of TB in children TB / HIV",
+    "SumSickAndCure": "Rate of relapse and success patients"
+  },
+  "facility": {
+    "title": "Facility",
+    "name": "Facility name",
+    "idOld": "Old ID",
+    "vitimesId": "Facility ID",
+    "provinceIdOld": "Old Facility ID",
+    "provinceId": "Provice ID",
+    "active": "Active",
+    "isHTDT": "isHTDT",
+    "sMSCode": "SMS Code"
+  },
+  "sessions": {
+    "userNameNotEmpty": "The account cannot be left blank",
+    "passWordNotEmpty": "Password can not be blank"
+  },
+  "targetsDashboard": {
+    "title": "Targets dashboard",
+    "tuberculosisAFB": "Number of patients with pulmonary tuberculosis AFB (+)",
+    "successfulTreatment": "Number of patients successfully treated",
+    "bacteriology": "Number of patients with tuberculosis with bacteriological evidence",
+    "HIVCounselingAndTesting": "Number of TB patients receiving HIV counseling and testing",
+    "detected": "Number of TB cases detected"
+  },
+  "ProgrammaticDashboards":{
+    "title": "Programmatic dashboards",
+    "demographicCharacteristics":"Demographic characteristics",
+    "delayTreatment": "Tendency to delay treatment",
+    "treatmentResults": "Treatment results",
+    "proportionalToAge": "% of quantity by age"
+  },
+  "import":{
+    "title": "Targets",
+    "mes_error_add": "An error occurred while saving",
+    "mes_error_edit": "The record already exists",
+    "mess_edit": "Successfully repaired",
+    "mess_add": "New successfully added",
+    "data":{
+      "title": "Import Data"
+    }
+    ,
+    "targets": {
+      "name": "Target Name",
+      "code": "Target Code",
+      "title": "Import Target",
+      "numberOfPatientsHIVCounselAndTest": "Number of TB patients receiving HIV counseling and testing",
+      "numberOfPatientsDetect": "Number of TB cases detected",
+      "numberOfPatientsAFB_plus": "Number of patients with pulmonary tuberculosis AFB(+)",
+      "numberOfPatientsHasBacteriological": "Number of patients with tuberculosis with bacteriological evidence",
+      "numberOfPatientsCured": "Successful treatment",
+      "region": "Region",
+      "province": "Province",
+      "facility": "Facility",
+      "year": "Year"
+    },
+    "xpert": {
+      "title":"Import Count Xpert",
+      "area": "Area",
+      "province":"City/Province",
+      "district":"District",
+      "amount":"Amount",
+      "region": "Region",
+      "facility": "Facility",
+      "year": "Year",
+      "xpert": "Machine Xpert",
+      "pleasse_select_year": "Pleasse select year",
+      "pleasse_select_province": "Pleasse select province"
+    },
+    "amountOfWork":"Enter the machine workload"
+  },
+  "chart": {
+    "pediatricTuberculosisPatients": "Pediatric tuberculosis patients",
+    "totalNumberOfTBPatients":"Total number of TB patients",
+    "tuberculosisHIV":"Tuberculosis / HIV",
+    "new": "New",
+    "relapse": "Relapse",
+    "successfulTreatment": "Successful Treatment",
+    "male": "Male",
+    "female": "Female",
+    "tuberculosisHIVPatientsChildTuberculosis":"Chart of tuberculosis/HIV patients, child tuberculosis ",
+    "indicatorsRelapsesSuccessfulTreatment": "Chart of new patient indicators, relapses, successful treatment",
+    "patientRateByAge": "Patient rate by age",
+    "rateChartRelapseSuccessfulTreatment": "New patient index rate chart, relapse, successful treatment",
+    "TBHIVChildTuberculosis": "Chart of the ratio of patients with TB/ HIV, child tuberculosis",
+    "patientIndexByGenderChart": "Patient index by gender chart",
+    "TBHIVPatientsChildTuberculosisOverTime" : "Graph of rates of TB/HIV patients, child tuberculosis over time",
+    "TBHIVChildTuberculosisByGeographicalLocation":"Patient chart of TB/HIV, Child Tuberculosis by Geographical Location",
+    "newPatientChartRelapseReTreatmentOverTime": "New patient chart, relapse, re-treatment over time ",
+    "newPatientChartRelapseGeographicalReTreatment": "Mew patient chart, relapse, geographical re-treatment",
+    "expected": "Expected",
+    "reality": "Reality",
+    "chartOfTreatmentDeferredTrend":"Chart of treatment deferred trend",
+    "time":"Time",
+    "numberOfCuredPatients": "Number of cured patients",
+    "treatmentFailed": "Treatment failed ",
+    "patientDies": "Patient dies ",
+    "unsEvaluated": "Uns evaluated",
+    "canotTrack": "Can't track",
+    "complete": "Complete",
+    "showHidingTuberculosisPatientInformation":"Show / hiding tuberculosis patient information",
+    "hideShowDensityInformation": "Hide/ show  density information ",
+    "numberOfCases": "Number of cases",
+    "numberOfXpertMachines": "Number of Xpert machines"
+  },
+  "sample": {
+    "title": "Sample",
+    "suspect": {
+      "level": "Suspect Level",
+      "type": "Suspect Type"
+    }
+  },
+  "report": {
+    "title": "Báo cáo"
+  },
+  "HealthOrganization": {
+    "title": "Health Organization",
+    "EnterSearch": "Enter search keywords",
+    "Name": "Health Organization Name",
+    "Code": "Health Organization Code"
+  },
+  "healthOrg": {
+    "title": "Health Organization",
+    "select": "Select Health Organization "
+  },
+  "suspected_person": {
+    "title":"Người nghi nhiễm",
+    "name":"Tên",
+    "givenName":"Họ",
+    "birthDate":"Ngày sinh",
+    "gender":"Giới tính",
+    "physicalAdminUnitName":"Địa chỉ tạm trú",
+    "physicalAdminUnit":"Địa chỉ tạm trú",
+    "residentAdminUnitName":"Địa chỉ thường trú",
+    "residentAdminUnit":"Địa chỉ thường trú",
+    "suspectedLevel":"Cấp độ nghi nhiễm",
+    "suspectedType":"Loại nghi nhiễm",
+    "epidemiologicalFactors": "Yếu tố dịch tễ",
+    "career": "Career"
+  },
+  "component": {
+    "product": {
+      "title": "Chọn cấp cha"
+    }
+  },
+  "reportSampleBySuspectedLevel": {
+    "title": "Báo cáo tổng hợp mẫu theo cấp độ nghi nghiễm"
+  }
+}
